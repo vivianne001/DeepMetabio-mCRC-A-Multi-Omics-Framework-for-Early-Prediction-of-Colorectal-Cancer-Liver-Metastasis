@@ -1,0 +1,2 @@
+# DeepMetabio-mCRC-A-Multi-Omics-Framework-for-Early-Prediction-of-Colorectal-Cancer-Liver-Metastasis
+This repository contains the code and analysis pipeline for the "DeepMetabio-mCRC Screener" project. This study develops and validates an integrated multi-omics framework to predict colorectal liver metastasis (CRLM) and identifies novel, multifunctional biomarker for CRLM diagnosis, prognosis, and therapeutic strategy.
