@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 800px;
+                 background-color: #f9f9f9;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#d35400", "font": {"color": "black"}, "id": "CRLM", "label": "CRLM", "shape": "star", "size": 40}, {"color": "#e74c3c", "font": {"color": "black"}, "id": "Tryptophan metabolism", "label": "Tryptophan metabolism", "shape": "box", "size": 35, "title": "\u6838\u5fc3\u8c03\u63a7\u901a\u8def"}, {"color": "#e74c3c", "font": {"color": "black"}, "id": "ACMSD", "label": "ACMSD", "shape": "ellipse", "size": 25, "title": "\u6838\u5fc3\u98ce\u9669\u6291\u5236\u57fa\u56e0"}, {"color": "#2980b9", "font": {"color": "black"}, "id": "Retinol metabolism", "label": "Retinol metabolism", "shape": "box", "size": 30}, {"color": "#27ae60", "font": {"color": "black"}, "id": "CYP2C9", "label": "CYP2C9", "shape": "ellipse", "size": 15}, {"color": "#27ae60", "font": {"color": "black"}, "id": "CYP2C8", "label": "CYP2C8", "shape": "ellipse", "size": 15}, {"color": "#27ae60", "font": {"color": "black"}, "id": "CYP2A6", "label": "CYP2A6", "shape": "ellipse", "size": 15}, {"color": "#27ae60", "font": {"color": "black"}, "id": "ADH1A", "label": "ADH1A", "shape": "ellipse", "size": 15}, {"color": "#27ae60", "font": {"color": "black"}, "id": "CYP1A2", "label": "CYP1A2", "shape": "ellipse", "size": 15}, {"color": "#27ae60", "font": {"color": "black"}, "id": "RDH16", "label": "RDH16", "shape": "ellipse", "size": 15}, {"color": "#27ae60", "font": {"color": "black"}, "id": "HSD17B6", "label": "HSD17B6", "shape": "ellipse", "size": 15}, {"color": "#f39c12", "font": {"color": "black"}, "id": "Retinal", "label": "Retinal", "shape": "diamond", "size": 20}, {"color": "#f39c12", "font": {"color": "black"}, "id": "11-cis-Retinol", "label": "11-cis-Retinol", "shape": "diamond", "size": 20}, {"color": "#27ae60", "font": {"color": "black"}, "id": "ALDH8A1", "label": "ALDH8A1", "shape": "ellipse", "size": 15}, {"color": "#27ae60", "font": {"color": "black"}, "id": "DHTKD1", "label": "DHTKD1", "shape": "ellipse", "size": 15}, {"color": "#f39c12", "font": {"color": "black"}, "id": "L-Tryptophan", "label": "L-Tryptophan", "shape": "diamond", "size": 20}, {"color": "#f39c12", "font": {"color": "black"}, "id": "N\u0027-Formylkynurenine", "label": "N\u0027-Formylkynurenine", "shape": "diamond", "size": 20}, {"color": "#f39c12", "font": {"color": "black"}, "id": "Tryptamine", "label": "Tryptamine", "shape": "diamond", "size": 20}, {"color": "#f39c12", "font": {"color": "black"}, "id": "Quinolinicacid", "label": "Quinolinicacid", "shape": "diamond", "size": 20}, {"color": "#f39c12", "font": {"color": "black"}, "id": "Nicotinamide", "label": "Nicotinamide", "shape": "diamond", "size": 20}, {"color": "#8e44ad", "font": {"color": "black"}, "id": "NR1I2 human", "label": "NR1I2 human", "shape": "triangle", "size": 25}, {"color": "#8e44ad", "font": {"color": "black"}, "id": "HNF4A human", "label": "HNF4A human", "shape": "triangle", "size": 25}, {"color": "#8e44ad", "font": {"color": "black"}, "id": "PPARGC1A human", "label": "PPARGC1A human", "shape": "triangle", "size": 25}, {"color": "#8e44ad", "font": {"color": "black"}, "id": "GATA2 human", "label": "GATA2 human", "shape": "triangle", "size": 25}, {"color": "#8e44ad", "font": {"color": "black"}, "id": "NFYA human", "label": "NFYA human", "shape": "triangle", "size": 25}, {"color": "#8e44ad", "font": {"color": "black"}, "id": "AHR human", "label": "AHR human", "shape": "triangle", "size": 25}, {"color": "#8e44ad", "font": {"color": "black"}, "id": "HNF1A human", "label": "HNF1A human", "shape": "triangle", "size": 25}, {"color": "#8e44ad", "font": {"color": "black"}, "id": "HSF1 human", "label": "HSF1 human", "shape": "triangle", "size": 25}, {"color": "#8e44ad", "font": {"color": "black"}, "id": "PPARA human", "label": "PPARA human", "shape": "triangle", "size": 25}, {"color": "#8e44ad", "font": {"color": "black"}, "id": "FOS human", "label": "FOS human", "shape": "triangle", "size": 25}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "#c0392b", "from": "CRLM", "title": "\u8c03\u63a7", "to": "Tryptophan metabolism", "width": 4}, {"arrows": "to", "color": "#c0392b", "from": "Tryptophan metabolism", "title": "\u5305\u542b", "to": "ACMSD", "width": 2.5}, {"arrows": "to", "color": "#c0392b", "from": "CRLM", "to": "Retinol metabolism", "width": 3}, {"arrows": "to", "color": "#27ae60", "from": "Retinol metabolism", "to": "CYP2C9", "width": 1.5}, {"arrows": "to", "color": "#27ae60", "from": "Retinol metabolism", "to": "CYP2C8", "width": 1.5}, {"arrows": "to", "color": "#27ae60", "from": "Retinol metabolism", "to": "CYP2A6", "width": 1.5}, {"arrows": "to", "color": "#27ae60", "from": "Retinol metabolism", "to": "ADH1A", "width": 1.5}, {"arrows": "to", "color": "#27ae60", "from": "Retinol metabolism", "to": "CYP1A2", "width": 1.5}, {"arrows": "to", "color": "#27ae60", "from": "Retinol metabolism", "to": "RDH16", "width": 1.5}, {"arrows": "to", "color": "#27ae60", "from": "Retinol metabolism", "to": "HSD17B6", "width": 1.5}, {"arrows": "to", "color": "#16a085", "from": "Retinol metabolism", "to": "Retinal", "width": 1.5}, {"arrows": "to", "color": "#16a085", "from": "Retinol metabolism", "to": "11-cis-Retinol", "width": 1.5}, {"arrows": "to", "color": "#27ae60", "from": "Tryptophan metabolism", "to": "CYP1A2", "width": 1.5}, {"arrows": "to", "color": "#27ae60", "from": "Tryptophan metabolism", "to": "ALDH8A1", "width": 1.5}, {"arrows": "to", "color": "#27ae60", "from": "Tryptophan metabolism", "to": "DHTKD1", "width": 1.5}, {"arrows": "to", "color": "#16a085", "from": "Tryptophan metabolism", "to": "L-Tryptophan", "width": 1.5}, {"arrows": "to", "color": "#16a085", "from": "Tryptophan metabolism", "to": "N\u0027-Formylkynurenine", "width": 1.5}, {"arrows": "to", "color": "#16a085", "from": "Tryptophan metabolism", "to": "Tryptamine", "width": 1.5}, {"arrows": "to", "color": "#16a085", "from": "Tryptophan metabolism", "to": "Quinolinicacid", "width": 1.5}, {"arrows": "to", "color": "#16a085", "from": "Tryptophan metabolism", "to": "Nicotinamide", "width": 1.5}, {"arrows": "to", "color": "#8e44ad", "from": "NR1I2 human", "title": "Regulates", "to": "CYP2C9", "width": 1}, {"arrows": "to", "color": "#8e44ad", "from": "NR1I2 human", "title": "Regulates", "to": "CYP2C8", "width": 1}, {"arrows": "to", "color": "#8e44ad", "from": "HNF4A human", "title": "Regulates", "to": "CYP2C9", "width": 1}, {"arrows": "to", "color": "#8e44ad", "from": "HNF4A human", "title": "Regulates", "to": "CYP2C8", "width": 1}, {"arrows": "to", "color": "#8e44ad", "from": "PPARGC1A human", "title": "Regulates", "to": "CYP2C9", "width": 1}, {"arrows": "to", "color": "#8e44ad", "from": "GATA2 human", "title": "Regulates", "to": "ADH1A", "width": 1}, {"arrows": "to", "color": "#8e44ad", "from": "NFYA human", "title": "Regulates", "to": "CYP2A6", "width": 1}, {"arrows": "to", "color": "#8e44ad", "from": "AHR human", "title": "Regulates", "to": "CYP1A2", "width": 1}, {"arrows": "to", "color": "#8e44ad", "from": "HNF1A human", "title": "Regulates", "to": "CYP1A2", "width": 1}, {"arrows": "to", "color": "#8e44ad", "from": "HSF1 human", "title": "Regulates", "to": "HSD17B6", "width": 1}, {"arrows": "to", "color": "#8e44ad", "from": "PPARA human", "title": "Regulates", "to": "CYP2C9", "width": 1}, {"arrows": "to", "color": "#8e44ad", "from": "FOS human", "title": "Regulates", "to": "CYP1A2", "width": 1}, {"arrows": "to", "color": "#8e44ad", "from": "NR1I2 human", "title": "Regulates", "to": "CYP2C9", "width": 1}, {"arrows": "to", "color": "#8e44ad", "from": "NR1I2 human", "title": "Regulates", "to": "CYP2C8", "width": 1}, {"arrows": "to", "color": "#8e44ad", "from": "HNF4A human", "title": "Regulates", "to": "CYP2C9", "width": 1}, {"arrows": "to", "color": "#8e44ad", "from": "HNF4A human", "title": "Regulates", "to": "CYP2C8", "width": 1}, {"arrows": "to", "color": "#8e44ad", "from": "PPARGC1A human", "title": "Regulates", "to": "CYP2C9", "width": 1}, {"arrows": "to", "color": "#8e44ad", "from": "GATA2 human", "title": "Regulates", "to": "ADH1A", "width": 1}, {"arrows": "to", "color": "#8e44ad", "from": "NFYA human", "title": "Regulates", "to": "CYP2A6", "width": 1}, {"arrows": "to", "color": "#8e44ad", "from": "AHR human", "title": "Regulates", "to": "CYP1A2", "width": 1}, {"arrows": "to", "color": "#8e44ad", "from": "HNF1A human", "title": "Regulates", "to": "CYP1A2", "width": 1}, {"arrows": "to", "color": "#8e44ad", "from": "HSF1 human", "title": "Regulates", "to": "HSD17B6", "width": 1}, {"arrows": "to", "color": "#8e44ad", "from": "PPARA human", "title": "Regulates", "to": "CYP2C9", "width": 1}, {"arrows": "to", "color": "#8e44ad", "from": "FOS human", "title": "Regulates", "to": "CYP1A2", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
