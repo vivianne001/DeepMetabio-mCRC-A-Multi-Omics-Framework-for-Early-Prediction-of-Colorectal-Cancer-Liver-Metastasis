@@ -1,0 +1,100 @@
+library(dplyr)
+library(ggplot2)
+library(forcats)
+
+# Step 1: Load TRS correlated genes data
+trs = read.csv("all_gene_correlations_table.csv", header = T)
+class(trs)
+head(trs)
+
+# Step 2: Load SHAP values data
+shap = read.csv("SHAP_mean_abs_values_CNN_external.csv", header = T)
+class(shap)
+head(shap)
+
+# -----------------------------------------------------------------
+# TRS Selection: Filter for |correlation| Top 50 with P-value < 0.05
+# -----------------------------------------------------------------
+trs_top30 <- trs %>%
+  filter(P_Value < 0.05) %>%
+  mutate(abs_corr = abs(Correlation)) %>%
+  arrange(desc(abs_corr)) %>%
+  slice_head(n = 50)
+
+# Display filtered TRS results
+trs_top30
+
+# -----------------------------------------------------------------
+# Step 3: SHAP Selection: Select Top 50 genes based on MeanAbsSHAP
+# -----------------------------------------------------------------
+shap_top30 <- shap %>%
+  arrange(desc(MeanAbsSHAP)) %>%
+  slice_head(n = 50)
+
+# Display filtered SHAP results
+shap_top30
+
+# Identify overlapping genes between SHAP and TRS selections
+intersect(shap_top30$Gene, trs_top30$Gene)
+
+# -----------------------------------------------------------------
+# Step 4: Visualization - TRS Bar Plot (Correlation)
+# -----------------------------------------------------------------
+p_trs <- ggplot(trs_top30,
+                aes(x = Correlation,
+                    y = fct_reorder(Gene, Correlation),
+                    fill = Correlation > 0)) +
+  geom_col(width = 0.7, fill = "#c23616") +
+  labs(
+    title = "Top Features Most Correlated with TRS",
+    x = "Pearson Correlation with TRS",
+    y = "Gene",
+    fill = "Correlation Status"
+  ) +
+  theme_classic(base_size = 12)
+
+p_trs
+
+# -----------------------------------------------------------------
+# Step 5: Visualization - SHAP Bar Plot (Feature Importance)
+# -----------------------------------------------------------------
+p_shap <- ggplot(shap_top30,
+                 aes(x = MeanAbsSHAP,
+                     y = fct_reorder(Gene, MeanAbsSHAP))) +
+  geom_col(fill = "#4B7BEC", width = 0.7) +
+  labs(
+    title = "Top Features by Mean Absolute SHAP Value",
+    x = "Mean |SHAP value|",
+    y = "Gene"
+  ) +
+  theme_classic(base_size = 12)
+
+p_shap
+
+# -----------------------------------------------------------------
+# Step 6: Venn Diagram - Intersection Analysis between SHAP and TRS
+# -----------------------------------------------------------------
+library(ggvenn)
+library(ggplot2) # ggvenn is built on ggplot2
+
+# Prepare gene lists for Venn diagram visualization
+# The list names will be used as labels in the plot
+gene_lists <- list(
+  `Top TRS Correlated Features` = trs_top30$Gene,
+  `Top SHAP Features` = shap_top30$Gene
+)
+
+# Render Venn diagram with contrasting colors for clarity
+ggvenn(
+  gene_lists,
+  fill_color = c("#6B98C4", "#F5867F"),
+  stroke_size = 1.5,
+  set_name_size = 6,
+  text_size = 17,
+  fill_alpha = 0.7
+) +
+  labs(title = "Venn Diagram: Intersection of Features Selected by TRS and SHAP") +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 18)
+  )
+``` [2]
