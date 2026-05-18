@@ -1,0 +1,88 @@
+# Clear environment
+rm(list=ls())
+
+# ==============================================================================
+# Step 0: Load necessary R packages and data
+# ==============================================================================
+library(survival)
+library(survminer)
+library(ggplot2)
+library(ggpubr)
+library(dplyr)
+
+# 1. Load data
+# Note: The local directory path has been translated to English for SCI submission.
+load("D:/CRC_Liver_Metastasis_Biomarker_Diagnosis/Github_Public/data_preprocess/Other_datasets/GSE17536/GSE17536_Raw_Data.Rdata")
+
+# 2. Merge TRS scores
+# Assuming TRS scores were calculated via the Python model and saved as trs_data
+# Recommended TRS calculation logic: TRS = 1 - predicted_probability [10]
+
+# Load the TRS score data calculated via Python 1D-CNN
+# Assuming the prediction was saved as CSV in Python, with the first column as sample_id (GSM...) and the second as TRS_Score
+trs_data <- read.csv("predicted_TRS_scores_gse17536.csv") 
+class(trs_data)
+trs_data = trs_data[,c(1,2)]
+
+# For demonstration, merge trs_data with ph. Assume the merged data frame is df
+# df <- merge(ph, trs_data, by.x = "row.names", by.y = "sample_id")
+identical(trs_data$Sample_ID, ph$geo_accession)
+# df <- merge(ph, trs_data, by.x = "row.names", by.y = "Sample_ID")
+
+df <- ph # Assuming ph already contains the "TRS_Score" column
+df <- ph 
+df$TRS_Score = trs_data$TRS_Score
+
+# ==============================================================================
+# Step 1: Data preprocessing (for initially non-metastatic patients)
+# ==============================================================================
+# Extract Stage I-III patients, exclude Stage IV (initially metastatic) to meet the definition of prospective prediction [1, 7]
+df_m0 <- df %>% filter(characteristics_ch1.3 != "ajcc_stage: 4")
+
+# Process Stage variable
+df_m0$Stage <- sub("ajcc_stage: ", "", df_m0$characteristics_ch1.3)
+df_m0$Stage <- factor(df_m0$Stage, levels = c("1", "2", "3"), labels = c("Stage I", "Stage II", "Stage III"))
+df_m0$Stage_num <- factor(df_m0$Stage, levels = c("Stage I", "Stage II", "Stage III"), labels = c(1,2,3))
+df_m0$Stage_num <- as.numeric(df_m0$Stage_num)
+df_m0 <- df_m0[!is.na(df_m0$Stage_num), ]
+
+# Process Disease-Free Survival (DFS) events and time
+# Exclude samples with NA in DFS status
+df_m0 <- df_m0 %>% filter(!is.na(`dfs_event (disease free survival; cancer recurrence):ch1`))
+df_m0$DFS_Event <- ifelse(df_m0$`dfs_event (disease free survival; cancer recurrence):ch1` == "recurrence", 1, 0)
+df_m0$DFS_Time <- as.numeric(df_m0$`dfs_time:ch1`)
+df_m0$DFS_Time = df_m0$DFS_Time/12
+
+# ==============================================================================
+# Step 2: Trend analysis of TRS and TNM Stage (reflecting the gradient of disease progression)
+# ==============================================================================
+print("====== Analyzing the association between TRS scores and TNM Stage ======")
+
+p_stage <- ggboxplot(df_m0, x = "Stage", y = "TRS_Score",
+                     color = "Stage", palette = "jco",
+                     add = "jitter", add.params = list(alpha=0.5)) +
+  stat_compare_means(method = "kruskal.test", label.y = max(df_m0$TRS_Score) * 1.1) +
+  labs(title = "TRS across AJCC Stages (GSE17536 M0)",
+       x = "AJCC Stage", y = "TRS Score") +
+  theme_classic()
+p_stage
+
+# Spearman correlation analysis
+cor_res <- cor.test(df_m0$Stage_num, df_m0$TRS_Score, method = "spearman", exact = FALSE)
+print(paste("Stage vs TRS Correlation: rho =", round(cor_res$estimate, 3), "P =", signif(cor_res$p.value, 3)))
+
+# ==============================================================================
+# Step 3: Survival analysis (Kaplan-Meier curves)
+# ==============================================================================
+print("====== Performing DFS survival analysis ======")
+
+# Stratify using the optimal cutpoint [2.7]
+res.cut <- surv_cutpoint(df_m0, time = "DFS_Time", event = "DFS_Event", variables = "TRS_Score")
+df_m0$Risk_Optimal <- ifelse(df_m0$TRS_Score >= res.cut$TRS_Score$estimate, "High TRS", "Low TRS")
+
+fit <- survfit(Surv(DFS_Time, DFS_Event) ~ Risk_Optimal, data = df_m0)
+p_surv <- ggsurvplot(fit, data = df_m0, pval = TRUE, conf.int = TRUE,
+                     risk.table = TRUE, palette = c("#CD534CFF","#0073C2FF"),
+                     title = "DFS Analysis (Initially Non-Metastatic Patients)",
+                     xlab = "Time (Months)", ylab = "Disease-Free Survival")
+print(p_surv)
