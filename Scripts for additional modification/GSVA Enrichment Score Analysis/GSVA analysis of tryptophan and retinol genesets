@@ -1,0 +1,64 @@
+rm(list = ls())
+# --- Strategy B: Independent validation of metabolic pathway dysregulation ---
+
+# 1. Load necessary libraries
+library(GSVA)
+library(GSEABase)
+library(limma)
+library(ggplot2)
+library(ggsignif)
+library(reshape2)
+
+# 2. Prepare gene expression matrix
+# Load the Retinol and Tryptophan metabolism gene sets identified previously
+load("tryptophan_and_retinol_genesets.rdata")
+
+# Ensure the expression matrix (exp) rows are Gene Symbols and columns are sample names
+# The 'grouplist' should be a factor vector containing 'metastasis' and 'primary'
+# upload dataset,GSE50760 & GSE204805
+exp_matrix <- as.matrix(exp)
+
+# 3. Construct or import core metabolic pathway gene sets 
+# Based on manuscript conclusions regarding Retinol and Tryptophan metabolism
+# Gene lists are derived from the intersection of KEGG pathways and the 620-DEG pool
+metabolic_genesets <- list(
+  "Retinol_Metabolism" = your_degs_in_retinol,
+  "Tryptophan_Metabolism" = your_degs_in_tryptophan 
+)
+
+# 4. Execute GSVA to calculate pathway enrichment scores
+# For FPKM data that has undergone log2(x+1) transformation, "Gaussian" is recommended for kcdf
+# Using the GSVA parameter object (recommended syntax for current GSVA versions)
+gsva_param <- gsvaParam(
+  exprData = exp_matrix,
+  geneSets = metabolic_genesets,
+  maxDiff = TRUE
+)
+
+gsva_scores <- gsva(param = gsva_param)
+
+# 5. Transform results into a format suitable for visualization
+df_gsva <- as.data.frame(t(gsva_scores))
+df_gsva$Group <- factor(grouplist, levels = c("primary", "metastasis"))
+
+# 6. Statistical testing and visualization
+# This analysis focuses on the Tryptophan-NAD+ axis (e.g., ACMSD) mentioned in the manuscript
+
+ggplot(df_gsva, aes(x = Group, y = Retinol_Metabolism, fill = Group)) +
+  geom_boxplot(width = 0.5, outlier.shape = NA) +
+  geom_jitter(width = 0.1, alpha = 0.5) +
+  scale_fill_manual(values = c("primary" = "lightblue", "metastasis" = "red")) +
+  geom_signif(comparisons = list(c("primary", "metastasis")), 
+              test = "wilcox.test", 
+              map_signif_level = TRUE) + 
+  theme_minimal() +
+  labs(title = "Retinol Metabolism Activity (GSE204805)",
+       y = "GSVA Enrichment Score",
+       x = "Group (CRLM vs. CRC-PR samples)") +
+  theme(axis.line = element_line(color = "black"))
+
+# 7. Calculate effect size 
+# Used to provide quantitative evidence for pathway differences in the rebuttal letter
+library(effsize)
+d_val <- cohen.d(Tryptophan_Metabolism ~ Group, data = df_gsva)
+print(d_val)
