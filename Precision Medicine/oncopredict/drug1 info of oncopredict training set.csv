@@ -1,0 +1,1116 @@
+,drug,target,pathway
+1,(5Z)-7-Oxozeaenol_1242,"MAP3K7,  TAK1, TGF1a","MAPK signaling pathway,NF-kappa B signaling pathway,AMPK signaling pathway,Wnt signaling pathway,TNF signaling pathway,	IL-17 signaling pathway"
+2,16-beta-bromoandrosterone,NA,dehydroepiandrosterone (DHEA) analog
+3,"1S,3R-RSL-3",GPX4,synthetic lethal with HRAS in engineered cells;  of GPX4
+4,3-Cl-AHPC,NR0B2,binder of nuclear receptor SHP
+5,5-Fluorouracil_1073,"DNA ,RNA,TYMS","Capecitabine Action Pathway,Fluorouracil Action Pathway,pyrimidine analog; inhibitor of thymidylate synthase"
+6,5-Fluorouracil_179,"DNA ,RNA,TYMS","Capecitabine Action Pathway,Fluorouracil Action Pathway,pyrimidine analog; inhibitor of thymidylate synthase"
+7,glutaminase inhibitor 968,GLS,inhibitor of glutaminase
+8,A-443654_86,"AKT1, AKT2, AKT3",PI3K/MTOR signaling
+9,A-770041_55,"LCK, FYN",FLT3 signaling through SRC family kinases
+10,A-804598,P2RX7,inhibitor of purinergic receptor P2X
+11,A-83-01_477,"TGFB,ALK5,ALK4,ALK7",NA
+12,AA-COCF3,"FAAH,PLA2G4A,PLA2G4B,PLA2G4C,PLA2G4D","effector of arachidonic acid metabolic process,inhibitor of phospholipase A2 activity"
+13,abiraterone,CYP17A1,"inhibitor of 17 alpha-hydroxylase and C17,20 lyase"""
+14,ABT-199,BCL2,inhibitor of BCL2
+15,ABT-737,"BCL2, BCL-XL, BCL-W, BCL-B, BFL1",Apoptosis regulation
+16,ABT737_1910,"BCL2, BCL-XL, BCL-W, BCL-B, BFL2",Apoptosis regulation
+17,AC55649,"RARA,RARB","agonist of retinoic acid receptor beta,retinoid receptor agonist"
+18,Acetalax_1804,"TNFa, TNFR1"," autocrine receptor-mediated apoptosis,OXY delivered intraperitoneally inhibited tumor growth, accompanied by phosphorylation of eIF2¦Á and degradation of TNFR1. OXY induces a multifaceted cell starvation response, which ultimately induces programmed cell death"
+19,ACY-1215_264,HDAC6,Chromatin histone acetylation
+20,afatinib,"EGFR,ERBB2","MAPK signaling pathway,ErbB signaling pathway,inhibition of EGFR and HER2"
+21,Afatinib_1032,"EGFR,ERBB3","MAPK signaling pathway,ErbB signaling pathway,inhibition of EGFR and HER3"
+22,Afatinib_1032,"EGFR,ERBB4","MAPK signaling pathway,ErbB signaling pathway,inhibition of EGFR and HER4"
+23,Afatinib_1377,"EGFR,ERBB5","MAPK signaling pathway,ErbB signaling pathway,inhibition of EGFR and HER5"
+24,Afuresertib_1912,"AKT1, AKT2, AKT3",PI3K/MTOR signaling
+25,AGI-5198_1913,IDH1 (R132H),metabolism
+26,AGI-6780_1634,IDH2(R140Q),Metabolism
+27,AGI-6780_562,IDH2(R141Q),Metabolism
+28,AGK-2,SIRT2,inhibition of sirtuin 2
+29,AICA Ribonucleotide_1001,AMPK ,"Purine Metabolism,Mercaptopurine Action Pathway,Purine Nucleoside Phosphorylase Deficiency,Molybdenum Cofactor Deficiency,Azathioprine Action Pathway"
+30,AKT inhibitor VIII_171,"AKT1, AKT2, AKT3",PI3K/MTOR signaling
+31,AKT inhibitor VIII_228,"AKT1, AKT2, AKT4",PI4K/MTOR signaling
+32,Alectinib_281,"ALK,MET","ALK tyrosine kinase receptor ,RTK signaling"
+33,alisertib,"AURKA,AURKB","inhibitor of aurora kinases A and B,Mitosis"
+34,alisertib:navitoclax (2:1 mol/mol),"AURKA,AURKB","inhibitor of aurora kinases A and B,Mitosis"
+35,Alisertib_1051,"AURKA,AURKB","inhibitor of aurora kinases A and B,Mitosis"
+36,Alisertib_431,"BCL2L1,BCL2L2,BCL2",effector of apoptotic process 
+37,Alpelisib_1560,PI3Kalpha,PI3K/MTOR 
+38,alvocidib,"CDK1,CDK2,CDK4,CDK6,CDK7",Cyclin-dependent kinase (CDK) inhibitor
+39,AM-580,RARA,"agonist of retinoic acid receptor alpha,retinoid receptor agonist"
+40,AMG-319_2045,PI3K (beta sparing),PI3K/MTOR signaling
+41,Amuvatinib_293,"FLT3,KIT,MET,PDGFRA","FLT3 |KIT |PDGFR tyrosine kinase receptor |RAD51 |RET tyrosine kinase,RTK signaling"
+42,apicidin,"HDAC1,HDAC2,HDAC3,HDAC6,HDAC8",NA
+43,Apitolisib_382,"FGR,MAP3K9,mTOR,MTOR,PI3K,PIK3CA,PIK3CB,PIK3CD,PIK3CG,SYK",PI3K/MTOR signaling
+44,AR-42_272,HDAC1,Chromatin histone acetylation
+45,Ara-G_427,Anti-metabolite,NA
+46,ARRY-520_474,KIF11,Kinesin spindle protein inhibitor
+47,AS601245_207,"JNK1,JNK2",JNK and p38 signaling
+48,AS605240_224,"PI3K¦Ã,PIK3CG",PI3K/MTOR signaling
+49,AST-1306_381,"EGFR,ERBB2,ERBB4",EGFR /RTK signaling
+50,AT-406,XIAP,"Apoptosis - multiple species,inhibitor of inhibitor of apoptosis proteins (IAPs)"
+51,AT-7519_219,"CDK1,CDK2,CDK4,CDK5,CDK6,CDK9",Cell cycle
+52,AT13148_2170,AKT1,PI3K/MTOR 
+53,AT13387,"HSP90AA1,HSP90","PI3K-Akt signaling pathway,Estrogen signaling pathway"
+54,AT7867,"AKT,AKT1,AKT2,AKT3,GSK3B,PKIA,PRKACA,RPS6KB2","PI3K/MTOR signaling,inhibition of AKT1/2/3 and S6K"
+55,AT7867_356,AKT:|:AKT1:|:AKT2:|:AKT3:|:GSK3B:|:PKIA:|:PRKACA:|:RPS6KB2,"PI3K/MTOR signaling,inhibition of AKT1/2/3 and S7K"
+56,austocystin D,"NR1I2,NR1I3",inducer of DNA damage
+57,Avagacestat_1072,"PSEN1,PSENEN,NCSTN,APH1A ","Notch signaling pathway,Neurotrophin signaling pathway,Alzheimer disease"
+58,Avagacestat_205,"PSEN1,PSENEN,NCSTN,APH2A","Notch signaling pathway,Neurotrophin signaling pathway,Alzheimer disease"
+59,avicin D,"NR3C1 ,FADD, FAS,PRKAA1,PRKAA2",NA
+60,avrainvillamide,NPM1,"effector of nuclear export, effector of nuclear import"
+61,axitinib,CSF1:|:FLT1:|:FLT3:|:FLT4:|:KDR:|:KIT:|:PDGFR:|:PDGFRA:|:PDGFRB:|:PLK3:|:VEGFR,"MAPK signaling pathway,VEGF signaling pathway"
+62,Axitinib_1021,CSF1:|:FLT1:|:FLT3:|:FLT4:|:KDR:|:KIT:|:PDGFR:|:PDGFRA:|:PDGFRB:|:PLK4:|:VEGFR,"MAPK signaling pathway,VEGF signaling pathway"
+63,Axitinib_1021,CSF1:|:FLT1:|:FLT3:|:FLT4:|:KDR:|:KIT:|:PDGFR:|:PDGFRA:|:PDGFRB:|:PLK5:|:VEGFR,"MAPK signaling pathway,VEGF signaling pathway"
+64,AZ-3146,TTK,inhibition of TTK protein kinase:|:monopolar spindle 1 kinase
+65,AZ20_1184,ATR:|:MTOR,ATR kinase :|:Genome integrity
+66,AZ6102_2109,TNKS1:|:TNKS2,WNT signaling
+67,AZ628_29,BRAF:|:RAF1,ERK MAPK signaling:|:RAF
+68,AZ960_1250,JAK2:|:JAK3,Other kinases
+69,azacitidine,"DNMT1, DNMT3A, DNMT3B","Cysteine and methionine metabolism,MicroRNAs in cancer"
+70,AZD1208_1449,PIM1:|:PIM2:|:PIM3,"Other, kinases"
+71,AZD1208_1449,PIM1:|:PIM2:|:PIM3,"Other, kinases"
+72,AZD1332_1463,NTRK1:|:NTRK2:|:NTRK3,RTK signaling
+73,AZD1332_1463,NTRK1:|:NTRK2:|:NTRK3,RTK signaling
+74,AZD1480,JAK1:|:JAK2:|:JAK3,"inhibition of Janus kinases 1 and 2:|:JAK :|:Other, kinases"
+75,AZD1480_1432,JAK1:|:JAK2:|:JAK3,"inhibition of Janus kinases 1 and 3:|:JAK :|:Other, kinases"
+76,AZD2014_1441,"mTORC1, mTORC2",PI3K/MTOR 
+77,AZD2014_1441,"mTORC1, mTORC2",PI3K/MTOR 
+78,AZD3514_1382,AR,Hormone-related
+79,AZD3759_1915,EGFR,EGFR signaling
+80,AZD4547,FGFR1:|:FGFR2:|:FGFR3:|:FGFR4:|:IGF1R:|:KDR,FGFR :|: inhibition of fibroblast growth factor receptors:|:RTK signaling
+81,AZD4547_1135,FGFR1:|:FGFR2:|:FGFR3:|:FGFR4:|:IGF1R:|:KDR,FGFR :|: inhibition of fibroblast growth factor receptors:|:RTK signaling
+82,AZD4547_1497,FGFR1:|:FGFR2:|:FGFR3:|:FGFR4:|:IGF1R:|:KDR,FGFR :|: inhibition of fibroblast growth factor receptors:|:RTK signaling
+83,AZD4547_1786,FGFR1:|:FGFR2:|:FGFR3:|:FGFR4:|:IGF1R:|:KDR,FGFR :|: inhibition of fibroblast growth factor receptors:|:RTK signaling
+84,AZD4877_1409,EG5,Mitosis
+85,AZD5153_1706,BRD4,Chromatin other
+86,AZD5363_1916,"AKT1, AKT2, AKT3, ROCK2","Other, kinases"
+87,AZD5438_1401,CDK2:|:KCNH2,CDK :|:Cell cycle
+88,AZD5438_1401,CDK2:|:KCNH2,CDK :|:Cell cycle
+89,AZD5582_1427,cIAP:|:XIAP,Apoptosis regulation
+90,AZD5582_1617,cIAP:|:XIAP,Apoptosis regulation
+91,AZD5991_1720,MCL1,Apoptosis regulation
+92,AZD6094_1403,MET,RTK 
+93,AZD6482,PI3KB:|:PIK3CA:|:PIK3CB:|:PIK3CD:|:PIK3CG,inhibition of PI3K catalytic subunits beta and delta:|:PI3K :|:PI3K/MTOR signaling
+94,AZD6482_1066,PI3KB:|:PIK3CA:|:PIK3CB:|:PIK3CD:|:PIK4CG,inhibition of PI3K catalytic subunits beta and delta:|:PI3K :|:PI4K/MTOR signaling
+95,AZD6482_156,PI3KB:|:PIK3CA:|:PIK3CB:|:PIK3CD:|:PIK5CG,inhibition of PI3K catalytic subunits beta and delta:|:PI3K :|:PI5K/MTOR signaling
+96,AZD6482_2169,PI3KB:|:PIK3CA:|:PIK3CB:|:PIK3CD:|:PIK6CG,inhibition of PI3K catalytic subunits beta and delta:|:PI3K :|:PI6K/MTOR signaling
+97,AZD6738_1394,ATR,"p53 signaling pathway,Cell cycle,Cellular senescence"
+98,AZD6738_1917,ATR,"p54 signaling pathway,Cell cycle,Cellular senescence"
+99,AZD7545,"PDK1,PDK2",effector of pyruvate dehydrogenase (acetyl-transferring) kinase activity
+100,AZD7762,CHEK1:|:CHEK2,Cell cycle:|:CHK :|: inhibition of checkpoint kinases 1 and 2
+101,AZD7762_1022,CHEK1:|:CHEK2,Cell cycle:|:CHK :|: inhibition of checkpoint kinases 1 and 3
+102,AZD7762_1022,CHEK1:|:CHEK2,Cell cycle:|:CHK :|: inhibition of checkpoint kinases 1 and 4
+103,AZD7762_1402,CHEK1:|:CHEK2,Cell cycle:|:CHK :|: inhibition of checkpoint kinases 1 and 5
+104,AZD7969_1426,GSK3B,WNT signaling
+105,AZD8055,MTOR:|:MTORC1:|:MTORC2,of mTOR:|:mTOR :|:PI3K/MTOR signaling
+106,AZD8055_1059,MTOR:|:MTORC1:|:MTORC2,of mTOR:|:mTOR :|:PI3K/MTOR signaling
+107,AZD8055_1059,MTOR:|:MTORC1:|:MTORC2,of mTOR:|:mTOR :|:PI3K/MTOR signaling
+108,AZD8186_1444,PI3Kalpha:|:PI3Kbeta,PI3K/MTOR signaling
+109,AZD8186_1918,PI3Kalpha:|:PI3Kbeta,PI3K/MTOR signaling
+110,AZD8835_1445,PI3Kalpha:|:PI3Kdelta,PI3K/MTOR signaling
+111,AZD8931_1416,"EGFR, ERBB2, ERBB3",RTK 
+112,B02,RAD51,of RAD51
+113,bafilomycin A1,ATP6V0A1,inhibition of the vacuolar-type H+-ATPase
+114,BAM7_552,BAX:|:Bax activator,BAX activator:|:Other:|:stapled helical peptide activating BAX
+115,barasertib,AURKB,inhibition of aurora kinase B
+116,bardoxolone methyl,"KEAP1, IKBKB,AKT1,NFE2L2,NFKB1","electrophilic inducer of the NFE2L2-KEAP1 pathway,Anti-inflammatory"
+117,Bax channel blocker,BAX,of BAX-mediated mitochondrial cytochrome c release
+118,BAY-61-3606_178,SYK,"Other, kinases:|:syk"
+119,BCL-LZH-4,"BCL2L1,BCL2,MCL1","inhibition of BCL2, BCL-xL, and MCL1"
+120,BDP-00009066_1866,MRCKB_HUMAN,Cytoskeleton
+121,BEC,ARG1:|:ARG2,"effector of urea cycle, effector of arginase activity, activator of relaxation of vascular smooth muscle"
+122,belinostat,"HDAC1,HDAC2,HDAC3,HDAC6,HDAC8","Notch signaling pathway,Cell cycle,Pathways in cancer,Chromatin histone acetylation"
+123,Belinostat_274,"HDAC1,HDAC2,HDAC3,HDAC6,HDAC9","Notch signaling pathway,Cell cycle,Pathways in cancer,Chromatin histone acetylation"
+124,bendamustine,DNA,"Chronic lymphocytic leukemia,Non-Hodgkin lymphoma,Antineoplastic, Alkylating agent"
+125,betulinic acid,"SP1,ACAT2,POLB,ACAT1,SOAT1,STS,ANPEP,GPBAR1",inhibition of specificity protein 1 transcription factor in cells
+126,bexarotene,"RXRA:|:RXRB:|:RXRG,RARA,RARB","PPAR signaling pathway,Adipocytokine signaling pathway"
+127,Bexarotene_186,"RXRA:|:RXRB:|:RXRG,RARA,RARB","PPAR signaling pathway,Adipocytokine signaling pathway"
+128,BI-2536,"PLK1, PLK2, PLK3","inhibitor of protein localization to spindle pole body, inhibitor of protein catabolic process, inhibitor of mitosis, effector of spindle assembly involved in mitosis,Cell Cycle , effector of microtubule cytoskeleton organization , effector of microtubule polymerization, activator of apoptotic process, inhibitor of mitotic prometaphase , activator of mitotic cell cycle arrest , effector of mitotic prophase "
+129,BI-2536_1086,"PLK1, PLK2, PLK4","inhibitor of protein localization to spindle pole body, inhibitor of protein catabolic process, inhibitor of mitosis, effector of spindle assembly involved in mitosis,Cell Cycle , effector of microtubule cytoskeleton organization , effector of microtubule polymerization, activator of apoptotic process, inhibitor of mitotic prometaphase , activator of mitotic cell cycle arrest , effector of mitotic prophase "
+130,BI-2536_60,"PLK1, PLK2, PLK5","inhibitor of protein localization to spindle pole body, inhibitor of protein catabolic process, inhibitor of mitosis, effector of spindle assembly involved in mitosis,Cell Cycle , effector of microtubule cytoskeleton organization , effector of microtubule polymerization, activator of apoptotic process, inhibitor of mitotic prometaphase , activator of mitotic cell cycle arrest , effector of mitotic prophase "
+131,BIBF-1120_380,FGFR1;FGFR2;FGFR3;FLT1;FLT3;KDR;PDGFRA;PDGFRB,"MAPK signaling pathway,VEGF signaling pathway"
+132,BIBR-1532,TERT,inhibitor of telomerase reverse transcriptase
+133,BIBR-1532_2043,TERT,inhibitor of telomerase reverse transcriptase
+134,Bicalutamide_150,AR,"androgen receptor antagonist:|:Hormone-related,prostate cancer"
+135,Bicalutamide_1502,AR,"androgen receptor antagonist:|:Hormone-related,prostate cancer"
+136,BIRB-796,"MAPK11,MAPK14","inhibition of p38 MAPK,MAPK signaling pathway,VEGF signaling pathway, Osteoclast differentiation"
+137,birinapant,"DIABLO,XIAP","inhibition of apoptosis proteins, SMAC mimetic"
+138,BIX-01294,EHMT1:|:EHMT2,histone lysine methyltransferase :|: inhibition of G9a histone methyltransferase
+139,BIX02189_279,ERK5:|:MAP2K5:|:MAPK7:|:MEK5,ERK MAPK signaling:|:MEK
+140,blebbistatin,"MYH1,MYH2,MYH4,MYH6,MYH7,MYH7B,MYH8,MYH9,MYH15,MYH16,MYH3","inhibitor of cytokinesis,inhibitor of contractile ring contraction involved in cell cycle cytokinesis,inhibitor of ATP catabolic process, inhibitor of cell migration, inhibitor of bleb assembly, inhibitor of myosin heavy chain kinase activity,inhibitor of myosin II ATPases"
+141,Bleomycin (10 uM)_1392,dsDNA break induction:|:LIG1:|:LIG3,"inhibition of DNA replication, inducer of DNA damage"
+142,Bleomycin (50 uM)_1378,dsDNA break induction:|:LIG1:|:LIG4,"inhibition of DNA replication, inducer of DNA damage"
+143,bleomycin A2,dsDNA break induction:|:LIG1:|:LIG5,"inhibition of DNA replication, inducer of DNA damage"
+144,Bleomycin_190,dsDNA break induction:|:LIG1:|:LIG6,"inhibition of DNA replication, inducer of DNA damage"
+145,BMS-195614,RARA:|:RARB:|:RARG,antagonist of retinoic acid receptors
+146,BMS-270394,RARG,antagonist of retinoic acid receptor gamma
+147,BMS-345541,CHUK:|:IKBKB:|:IKK1:|:IKK2,"IKK :|: inhibition of IKK-2:|:Other, kinases"
+148,BMS-345541_1249,CHUK:|:IKBKB:|:IKK1:|:IKK2,"IKK :|: inhibition of IKK-3:|:Other, kinases"
+149,BMS-345541_203,CHUK:|:IKBKB:|:IKK1:|:IKK2,"IKK :|: inhibition of IKK-4:|:Other, kinases"
+150,BMS-509744_63,ITK,"Other, kinases"
+151,BMS-536924,AKT1:|:CCNE1:|:CDK2:|:CYP3A4:|:ERBB2:|:IGF1R:|:INSR:|:IR:|:KDR:|:LCK:|:MAPK1:|:MET:|:PDGFRA:|:PDGFRB,"IGF-1 :|:IGF1R signaling:|: inhibition of insulin-like growth factor 1 receptor (IGF1R) and insulin receptor (INSR),inhibition of cell proliferation, inhibitor of cell migration, inhibitor of cellular process, effector of cell cycle , activator of apoptotic process, effector of establishment or maintenance of cell polarity , effector of insulin-like growth factor-activated receptor activity, activator of epidermal growth factor-activated receptor activity "
+152,BMS-536924_1091,AKT1:|:CCNE1:|:CDK2:|:CYP3A4:|:ERBB2:|:IGF1R:|:INSR:|:IR:|:KDR:|:LCK:|:MAPK1:|:MET:|:PDGFRA:|:PDGFRB,"IGF-1 :|:IGF1R signaling:|: inhibition of insulin-like growth factor 1 receptor (IGF2R) and insulin receptor (INSR),inhibition of cell proliferation, inhibitor of cell migration, inhibitor of cellular process, effector of cell cycle , activator of apoptotic process, effector of establishment or maintenance of cell polarity , effector of insulin-like growth factor-activated receptor activity, activator of epidermal growth factor-activated receptor activity"
+153,BMS-536924_1091,AKT1:|:CCNE1:|:CDK2:|:CYP3A4:|:ERBB2:|:IGF1R:|:INSR:|:IR:|:KDR:|:LCK:|:MAPK1:|:MET:|:PDGFRA:|:PDGFRB,"IGF-1 :|:IGF1R signaling:|: inhibition of insulin-like growth factor 1 receptor (IGF3R) and insulin receptor (INSR),inhibition of cell proliferation, inhibitor of cell migration, inhibitor of cellular process, effector of cell cycle , activator of apoptotic process, effector of establishment or maintenance of cell polarity , effector of insulin-like growth factor-activated receptor activity, activator of epidermal growth factor-activated receptor activity"
+154,BMS-536924_62,AKT1:|:CCNE1:|:CDK2:|:CYP3A4:|:ERBB2:|:IGF1R:|:INSR:|:IR:|:KDR:|:LCK:|:MAPK1:|:MET:|:PDGFRA:|:PDGFRB,"IGF-1 :|:IGF1R signaling:|: inhibition of insulin-like growth factor 1 receptor (IGF4R) and insulin receptor (INSR),inhibition of cell proliferation, inhibitor of cell migration, inhibitor of cellular process, effector of cell cycle , activator of apoptotic process, effector of establishment or maintenance of cell polarity , effector of insulin-like growth factor-activated receptor activity, activator of epidermal growth factor-activated receptor activity"
+155,BMS-754807,AKT1:|:IGF1R:|:IR,IGF-1 :|: inhibition of insulin-like growth factor 1 receptor and insulin receptor:|:RTK signaling
+156,BMS-754807_184,AKT1:|:IGF1R:|:IR,IGF-1 :|: inhibition of insulin-like growth factor 2 receptor and insulin receptor:|:RTK signaling
+157,BMS-754807_2171,AKT1:|:IGF1R:|:IR,IGF-1 :|: inhibition of insulin-like growth factor 3 receptor and insulin receptor:|:RTK signaling
+158,bortezomib,"PSMB1,PSMB2,PSMB5,PSMD1,PSMD2",Proteasome
+159,Bortezomib_104,Proteasome:|:PSMA1:|:PSMA2:|:PSMA3:|:PSMA4:|:PSMA5:|:PSMA6:|:PSMA7:|:PSMA8:|:PSMB1:|:PSMB10:|:PSMB11:|:PSMB2:|:PSMB3:|:PSMB4:|:PSMB5:|:PSMB6:|:PSMB7:|:PSMB8:|:PSMB9:|:PSMD1:|:PSMD2:|:RELA,"inhibition of 26S proteasome:|:NFkB pathway , proteasome :|:NFkB pathway |proteasome :|:Protein stability and degradation"
+160,Bortezomib_1191,Proteasome:|:PSMA1:|:PSMA2:|:PSMA3:|:PSMA4:|:PSMA5:|:PSMA6:|:PSMA7:|:PSMA8:|:PSMB1:|:PSMB10:|:PSMB11:|:PSMB2:|:PSMB3:|:PSMB4:|:PSMB5:|:PSMB6:|:PSMB7:|:PSMB8:|:PSMB9:|:PSMD1:|:PSMD2:|:RELA,"of 26S proteasome:|:NFkB pathway , proteasome :|:NFkB pathway |proteasome :|:Protein stability and degradation"
+161,bosutinib,"ABL1,SRC","ErbB signaling pathway,Pathways in cancer,Chronic myeloid leukemia"
+162,Bosutinib_1019,ABL:|:ABL1:|:BCR:|:CAMK1D:|:CAMK2G:|:CDK2:|:FRK:|:FYN:|:HCK:|:LYN:|:MAP2K1:|:MAP2K2:|:MAP3K2:|:MAP4K5:|:SRC:|:STK10:|:STK24:|:STK4:|:TEC:|:TNK2:|:TXK,"ErbB signaling pathway,Pathways in cancer,Chronic myeloid leukemia"
+163,BPD-00008900_1998,NA,Other
+164,BPTES_1425,GLS,Other
+165,BRD-A02303741,DOT1L,inhibition of histone methyltransferases
+166,BRD-A02303741:carboplatin (1:1 mol/mol),DOT1L,inhibition of histone methyltransferases;inducer of DNA damage
+167,BRD-A02303741:navitoclax (2:1 mol/mol),BCL2:|:BCL2L1:|:BCL2L2:|:DOT1L,"inhibition of histone methyltransferases; inhibition of BCL2, BCL-xL, and BCL-W"
+168,BRD-A05715709,IDH1,putative inhibition of IDH1 R132H
+169,BRD-A71883111,IDH1,putative inhibition of IDH1 R132H
+170,BRD-A86708339,"KDM3A,KDM4A",screening hit
+171,BRD-A94377914,HDAC1:|:HDAC2:|:HDAC3:|:HDAC6:|:HDAC8,"inhibition of HDAC1, HDAC2, HDAC3, HDAC6, and HDAC8"
+172,BRD-K01737880,"AURKB,AURKC",screening hit
+173,BRD-K02251932,NA,product of diversity oriented synthesis
+174,BRD-K02492147,NA,product of diversity oriented synthesis
+175,BRD-K03536150,BAX,activator of BAX
+176,BRD-K03911514,NA,stapled helical peptide
+177,BRD-K04800985,NA,product of diversity oriented synthesis
+178,BRD-K07442505,NA,NA
+179,BRD-K09344309,NA,screening hit
+180,BRD-K09587429,NA,product of diversity oriented synthesis
+181,BRD-K11533227,HDAC1:|:HDAC2,inhibition of HDAC1 and HDAC2
+182,BRD-K13185470,MCL1,stapled helical peptide targeting MCL1
+183,BRD-K13999467,NA,product of diversity oriented synthesis
+184,BRD-K14844214,NA,product of diversity oriented synthesis
+185,BRD-K16130065,NA,stapled helical peptide
+186,BRD-K16147474,NA,product of diversity oriented synthesis
+187,BRD-K17060750,NA,product of diversity oriented synthesis
+188,BRD-K19103580,NA,product of diversity oriented synthesis
+189,BRD-K20514654,NA,stapled helical peptide
+190,BRD-K24690302,HDAC1,of HDAC1
+191,BRD-K26531177,NA,analog of the natural product piperlongumine
+192,BRD-K27188169,NA,stapled helical peptide
+193,BRD-K27188169:navitoclax (2:1 mol/mol),BCL2:|:BCL2L1:|:BCL2L2,"stapled helical peptide; of BCL2, BCL-xL, and BCL-W"
+194,BRD-K27224038,NA,product of diversity oriented synthesis
+195,BRD-K27986637,NA,product of diversity oriented synthesis; screening hit
+196,BRD-K28456706,HNF4A,of hepatocyte nuclear factor 4 alpha
+197,BRD-K29086754,NA,product of diversity oriented synthesis
+198,BRD-K29313308,HDAC3,inhibition of HDAC3
+199,BRD-K30019337,NA,product of diversity oriented synthesis
+200,BRD-K30748066,CDK9,inhibition of CDK9
+201,BRD-K33199242,NA,product of diversity oriented synthesis
+202,BRD-K33514849,NA,screening hit
+203,BRD-K34099515,NA,screening hit
+204,BRD-K34222889,NA,analog of the natural product piperlongumine
+205,BRD-K34485477,NA,product of diversity oriented synthesis
+206,BRD-K35604418,MCL1,inhibition of MCL1
+207,BRD-K37390332,NA,product of diversity oriented synthesis
+208,BRD-K41334119,NA,product of diversity oriented synthesis
+209,BRD-K41597374,NA,product of diversity oriented synthesis
+210,BRD-K42260513,EZH2,inhibition of enhancer of zeste polycomb repressive complex 2 subunit
+211,BRD-K44224150,NA,product of diversity oriented synthesis
+212,BRD-K45681478,NA,product of diversity oriented synthesis; screening hit
+213,BRD-K48334597,NA,product of diversity oriented synthesis
+214,BRD-K48477130,NA,screening hit
+215,BRD-K49290616,NA,product of diversity oriented synthesis
+216,BRD-K50799972,NA,product of diversity oriented synthesis
+217,BRD-K51490254,HDAC6:|:HDAC8,inhibition of HDAC6 and HDAC8
+218,BRD-K51831558,EZH2,inhibition of enhancer of zeste polycomb repressive complex 2 subunit
+219,BRD-K52037352,NA,product of diversity oriented synthesis
+220,BRD-K55116708,NA,product of diversity oriented synthesis;  of leukemic stem cells
+221,BRD-K55473186,NOTCH1,stapled helical peptide targeting NOTCH1
+222,BRD-K58730230,NA,stapled helical peptide
+223,BRD-K61166597,"HDAC1,HDAC2",inhibition of HDAC1 and HDAC2
+224,BRD-K63431240,NA,product of diversity oriented synthesis; screening hit
+225,BRD-K64610608,NA,product of diversity oriented synthesis; screening hit
+226,BRD-K66453893,NA,product of diversity oriented synthesis
+227,BRD-K66532283,HDAC1:|:HDAC2,inhibition of HDAC1 and HDAC2
+228,BRD-K70511574,"PLK1,CSF1R,FGFR1,FLT1,FLT3,FLT4,KDR,KIT,PDGFRA,PDGFRB,RET",inhibitor of polo-like kinase 1
+229,BRD-K71781559,NA,screening hit
+230,BRD-K71935468,NA,inducer of ROS
+231,BRD-K75293299,NA,product of diversity oriented synthesis
+232,BRD-K78574327,NA,product of diversity oriented synthesis
+233,BRD-K79669418,MDM2:|:MDM4,of MDM4-p53 interaction
+234,BRD-K80183349,HDAC1:|:HDAC2,inhibition of HDAC1 and HDAC2
+235,BRD-K84807411,NA,product of diversity oriented synthesis
+236,BRD-K85133207,HDAC1,inhibition of HDAC1
+237,BRD-K86535717,NA,product of diversity oriented synthesis
+238,BRD-K88742110,HDAC8,inhibition of HDAC8
+239,BRD-K90370028,NA,screening hit
+240,BRD-K92856060,NA,screening hit
+241,BRD-K94991378,NA,inducer of ROS
+242,BRD-K96431673,NA,product of diversity oriented synthesis
+243,BRD-K96970199,NA,product of diversity oriented synthesis
+244,BRD-K97651142,NA,aphrocallistin derivative
+245,BRD-K99006945,NA,screening hit
+246,BRD-K99584050,NA,stapled helical peptide
+247,BRD-M00053801,BCL2,inhibition of BCL2
+248,BRD1812,"CTNNB1,CREBBP,CREB1","effector of insulin-like growth factor-activated receptor activity, inhibitor of canonical Wnt receptor signaling pathway, inhibitor of Notch signaling pathway , effector of neuron differentiation, activator of apoptotic process"
+249,BRD1835,EZH2,product of diversity oriented synthesis; screening hit
+250,BRD4132,NA,screening hit
+251,BRD6340,NA,screening hit
+252,BRD8899,STK33,inhibition of serine/threonine kinasase STK33
+253,BRD8958,EP300,histone acetyltransferase :|: inhibition of E1A binding protein p300
+254,BRD9647,NA,screening hit
+255,BRD9876,NA,screening hit
+256,BRD9876:MK-1775 (4:1 mol/mol),WEE1,screening hit; inhibition of WEE1
+257,brefeldin A,ARF1,"modulator of ADP-ribosylation factor 1, inhibitor of protein translocation from ER to Golgi, inhibitor of protein ADP-ribosylation,inhibitor of protein targeting to Golgi"
+258,brivanib,"FLT1,KDR,CYP3A4,FGFR1,KCNH2","MAPK signaling pathway,PI3K-Akt signaling pathway,VEGF signaling pathway"
+259,"Brivanib, BMS-540215_376","VEGFR, PDGFR",RTK signaling
+260,Bryostatin 1_197,PKC:|:PRKCE,Other:|:PKC activator
+261,Buparlisib_1873,PI3KA:|:PI3KB:|:PI3KD:|:PI3Kgamma:|:PIK3CA:|:PIK3CG,PI3K :|:PI3K/MTOR signaling
+262,BX-912_222,CDK2:|:CHEK1:|:GSK3B:|:KDR:|:PDK1:|:PDK1 (PDPK1):|:PDPK1,Metabolism:|:pyruvate dehydrogenase kinase
+263,BX795_1037,"TBK1, PDK1 (PDPK1), IKK, AURKB, AURKC","Other, kinases"
+264,BYL-719,PI3KA:|:PIK3CA:|:PIK3CB:|:PIK3CD:|:PIK3CG,of PI3K catalytic subunit alpha:|:PI3K :|:PI3K/MTOR signaling
+265,C-75_435,FAS,Apoptosis regulation
+266,C6-ceramide,MAPK1:|:PPP2CA:|:UGCG,inhibition of glucosylceramide synthase; activator of MAP kinase (ERK); stimulator of protein phosphatase 2A
+267,cabozantinib,"FLT3,KDR,MET,RET","MAPK signaling pathway,Ras signaling pathway,PI3K-Akt signaling pathway,VEGF signaling pathway"
+268,Cabozantinib_249,"FLT1:|:FLT3:|:FLT4:|:KDR:|:KIT:|:MET:|:RET:|:TIE2,AXL:|:VEGFR","inhibition of c-MET, VEGFR2/3, and RET:|:RET tyrosine kinase , VEGFR :|:RET tyrosine kinase |VEGFR :|:RTK signaling"
+269,CAL-101,"PI3KCD,PIK3CA,PIK3CB,PIK3CG","PI3K-Akt signaling pathway, Apoptosis, 	B cell receptor signaling pathway"
+270,Camptothecin_1003,TOP1,DNA replication:|:topoisomerase
+271,canertinib,"EGFR,ERBB2,ERBB3,ERBB4","MAPK signaling pathway,ErbB signaling pathway,Calcium signaling pathway"
+272,"CAP-232, TT-232, TLN-232_436",Glycolysis,Metabolism
+273,Capivasertib_1136,AKT,PI3K/MTOR 
+274,carboplatin,DNA,NA
+275,carboplatin:etoposide (40:17 mol/mol),"TOP2A,TOP2B","Etoposide Metabolism Pathway,Etoposide Action Pathway"
+276,carboplatin:UNC0638 (2:1 mol/mol),"EHMT1,EHMT2",inhibitor of EHMT2 and GLP methyltransferase
+277,Carmustine_1807,GSR,"DNA alkylating , DNA :|:DNA alkylating |DNA :|:DNA replication"
+278,CAY10566_416,Stearoyl-CoA desaturase,Other
+279,CAY10576,IKBKE:|:IKK,inhibitor of IKK-epsilon
+280,CAY10594,PLD2,inhibition of phospholipase D2
+281,CAY10603_276,HDAC1:|:HDAC6,Chromatin histone acetylation:|: of HDAC6
+282,CAY10618,NAMPT,inhibition of nicotinamide phosphoribosyltransferase
+283,CBB-1007,KDM1A,inhibition of lysine-specific demethylase 1A (LSD1)
+284,CCT-018159_1170,HSP90:|:HSP90AA1:|:HSP90AB1,HSP :|:Protein stability and degradation
+285,CCT007093_1067,PPM1D,Cell cycle
+286,CCT036477,CTNNB1,inhibition of WNT signaling by blocking beta-catenin transcription
+287,CD-1530,RARG,agonist of retinoic acid receptor gamma:|:retinoid receptor agonist
+288,CD-437,RARG,agonist of retinoic acid receptor gamma:|:retinoid receptor agonist
+289,CD532_449,AURKA,Mitosis
+290,CDK9_5038_1709,CDK9,Cell cycle
+291,CDK9_5576_1708,CDK9,Cell cycle
+292,cediranib,"FLT1,KDR,FLT4","MAPK signaling pathway,VEGF signaling pathway"
+293,Cediranib_1922,CSF1R:|:FLT1:|:FLT2:|:FLT3:|:FLT4:|:KDR:|:KIT:|:PDGFRA:|:PDGFRB:|:VEGFR,"inhibition of VEGFRs:|:KIT , VEGFR :|:KIT |VEGFR :|:RTK signaling"
+294,ceranib-2,"ACER1,ACER2,ACER3,ASAH1,ASAH2,ASAH2B",inhibition of ceramidase activity
+295,cerulenin,"FASN,HMGCS1","effector of fatty acid biosynthetic process,inhibition of HMG-CoA synthase"
+296,Cetuximab_1114,EGFR,EGFR signaling
+297,CGP-082996_54,CDK4,Cell cycle
+298,CGP-60474_53,"CDK1:|:CDK1,CDK2,CDK5,CDK7,CDK9:|:CDK2:|:CDK5:|:CDK7:|:CDK9:|:PKC",Cell cycle
+299,Ch-55,RARA:|:RARB:|:RARG,agonist of retinoid acid receptors:|:retinoid receptor binder
+300,CHIR-99021,CDK1:|:GSK3A:|:GSK3B:|:MAPK1,glycogen synthase kinase :|: of GSK3 beta:|:WNT signaling
+301,CHIR-99021_1241,CDK1:|:GSK3A:|:GSK3B:|:MAPK1,glycogen synthase kinase :|: of GSK3 beta:|:WNT signaling
+302,CHIR-99021_154,CDK1:|:GSK3A:|:GSK3B:|:MAPK1,glycogen synthase kinase :|: of GSK3 beta:|:WNT signaling
+303,chlorambucil,DNA?,DNA Damage
+304,CHM-1,NA,inhibition of tubulin polymerization
+305,CI-1033_362,"EGFR, ERBB2, ERBB4",RTK signaling
+306,CI-1040_1015,MAP2K1:|:MAP3K1:|:MAP3K2:|:MEK1:|:MEK2,ERK MAPK signaling:|:MEK
+307,CI-976,ACAT1:|:CES1,ACAT :|: inhibition of acetyl-CoA acetyltransferase I
+308,ciclopirox,RRM1,"substituted pyridone antimycotic; inhibitor of the iron-dependent enzyme ribonucleotide reductase,"
+309,ciclosporin,"PPID,PPP3C,PPP3R,CHP","inhibitor of calcium-dependent protein serine/threonine phosphatase activity,	MAPK signaling pathway,Cellular senescence,Natural killer cell mediated cytotoxicity,Th1 and Th2 cell differentiation,Th17 cell differentiation,T cell receptor signaling pathway,Osteoclast differentiation"
+310,CID-5951923,KLF5,modulator of KLF5 expression
+311,CIL41,NA,screening hit
+312,CIL55,NA,NA
+313,CIL55A,NA,screening hit
+314,CIL56,NA,screening hit
+315,CIL70,NA,screening hit
+316,cimetidine,HRH2,"inhibitor of histidine receptor H2,Calcium signaling pathway,Neuroactive ligand-receptor interaction,Gastric acid secretion"
+317,Cisplatin_1005,"DNA crosslinker:|:XIAP,HRH2","inhibitor of DNA replication, inhibitor of transcription, activator of cell death,inhibitor of histidine receptor H2"
+318,Cisplatin_1005,"DNA crosslinker:|:XIAP,HRH3","DNA alkylating , DNA synthesis :|:DNA alkylating |DNA synthesis :|:DNA replication"
+319,Cisplatin_1496,"DNA crosslinker:|:XIAP,HRH4","DNA alkylating , DNA synthesis :|:DNA alkylating |DNA synthesis :|:DNA replication"
+320,clofarabine,"DNA,RRM1,POLA","Purine metabolism,Pyrimidine metabolism,DNA replication"
+321,CMK_64,RSK2,"Other, kinases"
+322,COL-3,NA,analog of tetracycline
+323,Compound 1541A,NA,DNA Damage
+324,compound 1B,"CASP3,CASP6,CASP7","activators of executioner procaspases 3, 6, and 7,inhibition of TP53"
+325,Compound 23 citrate,NA,analog of natural product cortistatin
+326,Compound 7d-cis,XPO1,"inhibition of CRM1-mediated nucleocytoplasmic transport,effector of nuclear export, effector of nuclear import"
+327,CP466722_152,ATM,Genome integrity
+328,CP724714_255,ERBB2,"EGFR , protein tyrosine kinase :|:EGFR |protein tyrosine kinase :|:RTK signaling"
+329,CPI-613_415,Metabo:|:Mitochondria:|:PDHA1,Other:|:pyruvate dehydrogenase
+330,CR-1-31B,EIF4A2:|:EIF4E:|:EIF4G1,silvestrol analog; inhibits translation by modulating the eIF4F complex
+331,crizotinib,"ALK,MET,ROS1,EML4","inhibition of c-MET and ALK,Non-small cell lung cancer"
+332,crizotinib:PLX-4032 (2:1 mol/mol),ALK:|:MET:|:ROS1,ALK tyrosine kinase receptor :|: inhibition of c-MET and ALK:|:RTK signaling
+333,Crizotinib_1083,ALK:|:MET:|:ROS1,ALK tyrosine kinase receptor :|: inhibition of c-MET and ALK:|:RTK signaling
+334,Crizotinib_37,ALK:|:MET:|:ROS2,ALK tyrosine kinase receptor :|: inhibition of c-MET and ALK:|:RTK signaling
+335,cucurbitacin I,"NFKB1,STAT3",modulator of NFKB1 and STAT3 signaling
+336,CUDC-101_273,EGFR:|:ERBB2:|:HDAC1-10,EGFR :|:Other
+337,curcumin,multiple targets,"modulator of ROS,modulator of NF-kappa-B signaling"
+338,CX-5461_300,RNA Polymerase 1,Other:|:RNA polymerase
+339,cyanoquinoline 11,MAP3KB,inhibitor of phosphorylated EGFR in cells
+340,Cyclopamine_17,SMO,Other
+341,cyclophosphamide,Alkylating agent:|:CYP2A6:|:CYP2B6:|:CYP2C18:|:CYP2C19:|:CYP2C8:|:CYP2C9:|:CYP2D6:|:CYP3A4:|:CYP3A5:|:CYP3A6,DNA alkylating :|:DNA alkylator:|:DNA replication
+342,Cyclophosphamide_1512,Alkylating agent:|:CYP2A6:|:CYP2B6:|:CYP2C18:|:CYP2C19:|:CYP2C8:|:CYP2C9:|:CYP2D6:|:CYP3A4:|:CYP3A5:|:CYP3A7,DNA alkylating :|:DNA alkylator:|:DNA replication
+343,cytarabine hydrochloride,Antimetabolite:|:POLA1:|:POLB:|:POLD1:|:POLE,inducer of DNA damage:|:Other:|:ribonucleotide reductase
+344,Cytarabine_1006,Antimetabolite:|:POLA1:|:POLB:|:POLD1:|:POLE,inducer of DNA damage:|:Other:|:ribonucleotide reductase
+345,Cytarabine_1006,DNA polymerase,induce of DNA Damage
+346,cytochalasin B,DNA,inhibition of actin polymerization
+347,CZC24832_1615,PI3Kgamma,PI3K/MTOR signaling
+348,dabrafenib,BRAF,"MAPK signaling pathway,ErbB signaling pathway"
+349,Dabrafenib_1373,BRAF:|:LIMK1:|:NEK11:|:RAF1:|:SIK1,ERK MAPK signaling:|: inhibition of BRAF:|:RAF
+350,Dabrafenib_1373,BRAF:|:LIMK1:|:NEK11:|:RAF1:|:SIK1,ERK MAPK signaling:|: inhibition of BRAF:|:RAF
+351,dacarbazine,DNA,DNA Damage
+352,Dacinostat_200,HDAC1:|:HDAC2:|:HDAC3:|:HDAC4:|:HDAC5:|:HDAC6:|:HDAC7:|:HDAC8:|:HDAC9,Chromatin histone acetylation:|:HDAC
+353,Dactinomycin_1811,RNA polymerase,Other:|:RNA polymerase
+354,Dactinomycin_1911,RNA polymerase,Other:|:RNA polymerase
+355,Dactolisib_1057,ATR:|:MTOR:|:MTORC1:|:MTORC2:|:PI3K (class 1):|:PIK3CA:|:PIK3CB:|:PIK3CD:|:PIK3CG,"inhibitionof PI3K and mTOR kinase activity:|:mTOR , PI3K :|:mTOR |PI3K :|:PI3K/MTOR signaling"
+356,Dactolisib_1057,ATR:|:MTOR:|:MTORC1:|:MTORC2:|:PI3K (class 1):|:PIK3CA:|:PIK3CB:|:PIK3CD:|:PIK3CG,"inhibitionof PI3K and mTOR kinase activity:|:mTOR , PI3K :|:mTOR |PI3K :|:PI4K/MTOR signaling"
+357,daporinad,NAMPT,inhibitor of nicotinamide phosphoribosyltransferase
+358,Daporinad_1248,NAMPT,inhibition of nicotinamide phosphoribosyltransferase:|:Metabolism:|:niacinamide phosphoribosyltransferase
+359,Daporinad_1248,NAMPT,inhibition of nicotinamide phosphoribosyltransferase:|:Metabolism:|:niacinamide phosphoribosyltransferase
+360,darinaparsin,TUBB1,"inducer of ROS,inhibition of microtubule assembly"
+361,dasatinib,EPHA2;KIT;LCK;SRC;YES1,"MAPK signaling pathway,ErbB signaling pathway,VEGF signaling pathway,Pathways in cancer,Chronic myeloid leukemia"
+362,Dasatinib_1079,ABL:|:ABL1:|:ABL2:|:BLK:|:EPHA2:|:Ephrins:|:FGR:|:FRK:|:FYN:|:HCK:|:KIT:|:LCK:|:LYN:|:PDGFR:|:PDGFRB:|:SRC:|:SRMS:|:STAT5B:|:YES1,"Bcr-Abl kinase , ephrin , KIT , PDGFR tyrosine kinase receptor , src , tyrosine kinase :|:Bcr-Abl kinase |ephrin |KIT |PDGFR tyrosine kinase receptor |src |tyrosine kinase :|: of SRC, YES1, EPHA2, c-KIT, and LCK:|:RTK signaling"
+363,Dasatinib_51,ABL:|:ABL1:|:ABL2:|:BLK:|:EPHA2:|:Ephrins:|:FGR:|:FRK:|:FYN:|:HCK:|:KIT:|:LCK:|:LYN:|:PDGFR:|:PDGFRB:|:SRC:|:SRMS:|:STAT5B:|:YES1,"Bcr-Abl kinase , ephrin , KIT , PDGFR tyrosine kinase receptor , src , tyrosine kinase :|:Bcr-Abl kinase |ephrin |KIT |PDGFR tyrosine kinase receptor |src |tyrosine kinase :|: of SRC, YES1, EPHA2, c-KIT, and LCK:|:RTK signaling"
+364,DBeQ,CASP3:|:VCP,ATPase :|: of p97 in cells
+365,decitabine,"DNMT1,DNMT3A,DNMT3B","Cysteine and methionine metabolism, MicroRNAs in cancer,inhibitor of DNA methyltransferase"
+366,decitabine:carboplatin (1:1 mol/mol),DNMT1,inhibitor of DNA methyltransferase
+367,decitabine:navitoclax (2:1 mol/mol),BCL2;BCL2L1;BCL2L2,effector of apoptotic process
+368,dexamethasone,NR3C1,"inhibitor of inflammatory response,agonist of glucocorticoid receptor,Neuroactive ligand-receptor interaction"
+369,Dihydrorotenone_1827,NA,inhibition of mitochondrion functions
+370,dinaciclib,CDK1;CDK2;CDK5;CDK9,"Cell cycle,p53 signaling pathway,Pathways in cancer"
+371,Dinaciclib_1180,CDK1:|:CDK2:|:CDK5:|:CDK9,CDK :|:Cell cycle:|:inhibition of cyclin-dependent kinases
+372,DMOG_165,HIF-PH,Metabolism
+373,docetaxel,TUBB,"Gap junction,inhibitor of microtubule assembly"
+374,docetaxel:tanespimycin (2:1 mol/mol),BCL2:|:MAP2:|:MAP4:|:MAPT:|:Microtubule stabiliser:|:NR1I2:|:TUBB:|:TUBB1,of microtubule assembly:|:Mitosis:|:tubulin polymerization
+375,Docetaxel_1007,BCL2:|:MAP2:|:MAP4:|:MAPT:|:Microtubule stabiliser:|:NR1I2:|:TUBB:|:TUBB1,of microtubule assembly:|:Mitosis:|:tubulin polymerization
+376,Docetaxel_1007,BCL2:|:MAP2:|:MAP4:|:MAPT:|:Microtubule stabiliser:|:NR1I2:|:TUBB:|:TUBB1,of microtubule assembly:|:Mitosis:|:tubulin polymerization
+377,Docetaxel_1819,HSP90AA1,"effector of protein folding,PI3K-Akt signaling pathway,Estrogen signaling pathway"
+378,Doramapimod_1042,JNK2:|:MAPK11:|:MAPK12:|:MAPK13:|:MAPK14:|:p38,of p38 MAPK:|:JNK and p38 signaling:|:p38 MAPK
+379,Doramapimod_1042,JNK2:|:MAPK11:|:MAPK12:|:MAPK13:|:MAPK14:|:p38,of p38 MAPK:|:JNK and p38 signaling:|:p38 MAPK
+380,doxorubicin,TOP2A,"inhibitor of topoisomerase II,DNA Damage"
+381,doxorubicin:navitoclax (2:1 mol/mol),Anthracycline:|:TOP2A,DNA replication:|: of topoisomerase II:|:topoisomerase
+382,Doxorubicin_133,Anthracycline:|:TOP2A,DNA replication:|: of topoisomerase II:|:topoisomerase
+383,Doxorubicin_1386,BCL2;BCL2L1;BCL2L2,effector of apoptotic process
+384,Dyrk1b_0191_1407,DYRK1B,"Other, kinases"
+385,"eEF2K Inhibitor, A-484954_409",eEF2K,NA
+386,Eg5_9814_1712,KSP11,Other
+387,EHT-1864_1069,RAC1:|:RAC2:|:RAC3,Cytoskeleton
+388,ELCPK,NA,screening hit
+389,Elephantin_1835,NA,Unclassified
+390,Elesclomol_1031,HSP90:|:HSPA1A,oxidative stress inducer:|:Protein stability and degradation
+391,elocalcitol,VDR,agonist of vitamin D receptor
+392,Embelin_172,XIAP,"Apoptosis regulation:|:HCV , XIAP :|:HCV |XIAP"
+393,entinostat,HDAC1;HDAC2;HDAC3;HDAC6;HDAC8,"Cell cycle,Notch signaling pathway,Pathways in cancer,inhibitor of deacetylase activity"
+394,Entinostat_1593,HDAC1:|:HDAC2:|:HDAC3:|:HDAC6:|:HDAC8:|:HDAC9,"Chromatin histone acetylation:|:HDAC :|: inhibition of HDAC1, HDAC2, HDAC3, HDAC6, and HDAC8"
+395,Entinostat_88,HDAC1:|:HDAC2:|:HDAC3:|:HDAC6:|:HDAC8:|:HDAC9,"Chromatin histone acetylation:|:HDAC :|: inhibition of HDAC1, HDAC2, HDAC3, HDAC6, and HDAC8"
+396,Entospletinib_1630,SYK,"Other, kinases"
+397,Enzastaurin_229,AKT1:|:GSK3B:|:PKCB:|:PRKCA:|:PRKCB:|:PRKCD:|:PRKCG,"Other, kinases:|:PKC"
+398,EphB4_9721_1413,EPHB4,RTK signaling
+399,epigallocatechin-3-monogallate,"GLUD1,ELANE,EP300,FASN,KAT2B,MMP14,MMP2",NA
+400,Epirubicin_1511,Anthracycline,DNA replication
+401,Epothilone B_201,Microtubule stabiliser:|:TUBA1A:|:TUBA1B:|:TUBA1C:|:TUBA3C:|:TUBA4A:|:TUBA8:|:TUBB:|:TUBB1:|:TUBB3:|:TUBB4A:|:TUBB4B,"microtubule stabilizing , tubulin polymerization :|:microtubule stabilizing |tubulin polymerization :|:Mitosis"
+402,EPZ004777_1237,DOT1L,Chromatin histone methylation
+403,EPZ5676_1563,DOT1L,Chromatin histone methylation
+404,erastin,SLC7A11;VDAC1;VDAC2,modulator of voltage-dependent anion channels; inhibitor of solute carrier SLC7A11
+405,erismodegib,SMO,"Hedgehog signaling pathway,Pathways in cancer,Basal cell carcinoma"
+406,ERK_2440_1713,"ERK1,ERK2ERK MAPK signaling",ERK MAPK signaling
+407,ERK_6604_1714,"ERK1,ERK3ERK MAPK signaling",ERK MAPK signaling
+408,erlotinib,EGFR;ERBB2,"MAPK signaling pathway,ErbB signaling pathway,Pathways in cancer,Pancreatic cancer,Non-small cell lung cancer"
+409,erlotinib:PLX-4032 (2:1 mol/mol),EGFR:|:ERBB2:|:NR1I2,EGFR :|:EGFR signaling:|: inhibition of EGFR and HER2
+410,Erlotinib_1,EGFR:|:ERBB2:|:NR1I2,EGFR :|:EGFR signaling:|: inhibition of EGFR and HER3
+411,Erlotinib_1168,BRAF,"	
+MAPK signaling pathway,ErbB signaling pathway,Pathways in cancer,Melanoma"
+412,etomoxir,CPT1A,inhibitor of carnitine palmitoyltransferase
+413,etoposide,TOP2A,activator of mitotic cell cycle arrest
+414,Etoposide_134,TOP2:|:TOP2A:|:TOP2B,DNA replication:|: of topoisomerase II:|:topoisomerase
+415,ETP-45835_447,MNK1:|:MNK2,"Other, kinases"
+416,ETP-46464,ATM:|:ATR,ATR kinase :|: inhibition of serine/threonine-protein kinase ATR
+417,EX-527,SIRT1,inhibition of sirtuin 1
+418,Fedratinib_306,BRD4:|:JAK1:|:JAK2:|:JAK3:|:TYK2,"FLT3 , JAK :|:FLT3 |JAK :|: inhibition of Janus kinase 2:|:Other, kinases"
+419,FEN1_3940_1419,FEN1,NA
+420,FGFR_0939_1421,FGFR4,RTK signaling
+421,FGFR_3831_1422,"FGFR1, FGFR2, FGFR3, FGFR4",RTK signaling
+422,FGIN-1-27,TSPO,activator of peripheral benzodiazepine receptor/translocator protein:|:inositol monophosphatase
+423,FH535_173,PPARD:|:PPARdelta:|:PPARG:|:PPARgamma,Other
+424,fingolimod,S1PR1,"Sphingolipid signaling pathway,Neuroactive ligand-receptor interaction"
+425,Flavopiridol_432,CDK,Cell cycle
+426,Fludarabine_1813,ADA:|:RRM1:|:RRM2,ribonucleotide reductase :|:Unclassified
+427,fluorouracil,TYMS,"inhibitor of thymidylate synthase,Pyrimidine metabolism,One carbon pool by folate"
+428,fluvastatin,HMGCR,Terpenoid backbone biosynthesis
+429,FMK_231,RSK,"Other, kinases"
+430,foretinib,KDR;MET,"VEGF signaling pathway,Focal adhesion"
+431,Foretinib_2040,EGFR:|:FGFR1:|:FLT1:|:FLT4:|:KDR:|:MET:|:PDGFR:|:RON:|:TIE2:|:VEGFR3/FLT4,inhibition of MET and VEGFR2:|:RTK signaling:|:VEGFR
+432,Foretinib_308,EGFR:|:FGFR1:|:FLT1:|:FLT4:|:KDR:|:MET:|:PDGFR:|:RON:|:TIE2:|:VEGFR3/FLT4,inhibition of MET and VEGFR3:|:RTK signaling:|:VEGFR
+433,FQI-1,"?TFCP2,LSF1",inhibition of LSF1-mediated transcription
+434,FQI-2,"?TFCP2,LSF1",inhibition of LSF1-mediated transcription
+435,FR-180204_263,ERK1:|:ERK2:|:MAPK1:|:MAPK3,ERK MAPK signaling:|:MAP kinase
+436,FSC231,PICK1,inhibition of PDZ domain of protein interacting with PRKCA 1 (PICK1)
+437,FTI-277_166,Farnesyl-transferase (FNTA):|:FNTA,Other
+438,FTY-720_546,SIP,NA
+439,fulvestrant,ESR1;GPER1,"Estrogen signaling pathway,Pathways in cancer,Breast cancer"
+440,Fulvestrant_1200,ESR:|:ESR1:|:ESR2:|:GPER1,antagonist of the estrogen receptor:|:estrogen receptor antagonist:|:Hormone-related
+441,Fulvestrant_1414,ESR:|:ESR1:|:ESR2:|:GPER1,antagonist of the estrogen receptor:|:estrogen receptor antagonist:|:Hormone-related
+442,Fulvestrant_1816,ESR:|:ESR1:|:ESR2:|:GPER1,antagonist of the estrogen receptor:|:estrogen receptor antagonist:|:Hormone-related
+443,fumonisin B1,CERS1;CERS2;CERS3;CERS4;CERS5;CERS6,"inhibitor of ceramide synthase,"
+444,Gallibiscoquinazole_1830,NA,Unclassified
+445,GANT-61,"SMO, GLI1",inhibition of hedgehog signaling pathway
+446,GDC-0879,BRAF,inhibition of BRAF:|:RAF
+447,GDC-0941,PIK3CA;PIK3CB;PIK3CD;PIK3CG,inhibitor of PI3K kinase activity
+448,GDC0810_1925,ESR1:|:ESR2,Hormone-related
+449,gefitinib,AKT1;EGFR,"MAPK signaling pathway,ErbB signaling pathway,Pathways in cancer,Non-small cell lung cancer"
+450,Gefitinib_1010,AKT1:|:EGFR,EGFR :|:EGFR signaling:|: inhibition of EGFR and AKT1
+451,Gefitinib_1010,AKT1:|:EGFR,EGFR :|:EGFR signaling:|: inhibition of EGFR and AKT2
+452,gemcitabine,CMPK1;RRM1;TYMS,"inhibitor of DNA replication; inhibitor of ribonucleotide reductase, thymidylate synthetase, and cytidine monophosphate (UMP-CMP) kinase,effector of DNA replication, effector of pyrimidine base biosynthetic process,Purine metabolism,Pyrimidine metabolism"
+453,Gemcitabine_1190,CMPK1:|:Pyrimidine antimetabolite:|:RRM1:|:RRM2:|:TYMS,"DNA replication:|: of DNA replication;  of ribonucleotide reductase, thymidylate synthetase, and cytidine monophosphate (UMP-CMP) kinase :|:ribonucleotide reductase"
+454,Gemcitabine_135,CMPK1:|:Pyrimidine antimetabolite:|:RRM1:|:RRM2:|:TYMS,"DNA replication:|: of DNA replication;  of ribonucleotide reductase, thymidylate synthetase, and cytidine monophosphate (UMP-CMP) kinase :|:ribonucleotide reductase"
+455,Gemcitabine_1393,CMPK1:|:Pyrimidine antimetabolite:|:RRM1:|:RRM2:|:TYMS,"DNA replication:|: of DNA replication;  of ribonucleotide reductase, thymidylate synthetase, and cytidine monophosphate (UMP-CMP) kinase :|:ribonucleotide reductase"
+456,Genentech Cpd 10_225,AURKA:|:AURKB,Mitosis
+457,GMX-1778,NAMPT,inhibition of nicotinamide phosphoribosyltransferase:|:NAMPT
+458,GNE-317_1926,PI3Kalpha,PI3K/MTOR signaling
+459,GNF-2_52,ABL1:|:BCR:|:BCR-ABL,ABL signaling:|:Bcr-Abl kinase
+460,gossypol,BCL2;BCL2L1;LDHA;LDHB;LDHC,"inhibitor of lactate dehydrogenase; inhibitor of BCL2 family members,inhibitor of sperm motility (GO:0030317), inhibitor of spermatogenesis (GO:0007283), inhibitor of cell growth (GO:0016049), inhibitor of inflammatory response (GO:0006954), inhibitor of cell proliferation (GO:0008283), inhibitor of DNA biosynthetic process (GO:0071897), effector of ATP metabolic process (GO:0046034), inhibitor of lipid oxidation (GO:0034440), inhibitor of ATP biosynthetic process (GO:0006754), inhibitor of translation (GO:0006412), inhibitor of mitochondrial respiratory chain (GO:0005746), inhibitor of fructose catabolic process (GO:0006001), inhibitor of viral infectious cycle (GO:0019058), inhibitor of testosterone biosynthetic process (GO:0061370), effector of phosphorylase kinase activity (GO:0004689), effector of apoptotic process (GO:0006915), effector of male gonad development (GO:0008584), effector of cell death (GO:0008219), activator of mitochondrion degradation (GO:0000422), effector of mRNA metabolic process (GO:0016071), inhibitor of growth (GO:0040007), activator of superoxide anion generation (GO:0042554), effector of oxidative phosphorylation (GO:0006119), effector of sodium ion homeostasis (GO:0055078), effector of regulation of vascular permeability (GO:0043114), effector of calcium ion homeostasis (GO:0055074), inhibitor of protein kinase C activity (GO:0004697), effector of glycolysis (GO:0006096), effector of lactate dehydrogenase activity (GO:0004457)"
+461,GSK-3 inhibitor IX,GSK3A:|:GSK3B,"glycogen synthase kinase , lipoxygenase :|: inhibition of JAK/STAT signaling"
+462,GSK-J4,KDM6A:|:KDM6B,histone lysine demethylase :|: inhibition of lysine-specific demethylases
+463,GSK1059615,MTOR:|:PI3K:|:PIK3CA:|:PIK3CB:|:PIK3CD:|:PIK3CG,inhibition of PI3K and mTOR kinase activity:|:PI3K :|:PI3K/MTOR signaling
+464,GSK1059615_374,MTOR:|:PI3K:|:PIK3CA:|:PIK3CB:|:PIK3CD:|:PIK3CG,inhibition of PI3K and mTOR kinase activity:|:PI3K :|:PI4K/MTOR signaling
+465,GSK1070916_226,AURKA:|:AURKB:|:AURKC:|:CYP2D6:|:CYP3A4,Aurora kinase :|:Mitosis
+466,GSK1904529A_1093,IGF1R:|:INSR:|:IR,"IGF-1 , insulin growth factor receptor , insulin receptor ligand:|:IGF-1 |insulin growth factor receptor |insulin receptor ligand:|:RTK signaling"
+467,GSK1904529A_202,IGF1R:|:INSR:|:IR,"IGF-1 , insulin growth factor receptor , insulin receptor ligand:|:IGF-1 |insulin growth factor receptor |insulin receptor ligand:|:RTK signaling"
+468,GSK2578215A_1927,LRRK2,"Other, kinases"
+469,GSK2606414_1618,PERK,Metabolism
+470,GSK2636771,PIK3CB,inhibition of PI3K catalytic subunit beta:|:PI3K
+471,GSK269962A_1192,ROCK1:|:ROCK2,Cytoskeleton
+472,GSK269962A_1192,ROCK1:|:ROCK2,Cytoskeleton
+473,GSK269962A_127,ROCK1:|:ROCK2,Cytoskeleton
+474,GSK319347A_91,IKBKE:|:IKK,"of IKK-epsilon:|:Other, kinases"
+475,GSK343_1627,EZH2,Chromatin histone methylation
+476,GSK4112,NR1D1,antagonist of Rev-ErbAalpha
+477,GSK429286A_230,ROCK1:|:ROCK2,Cytoskeleton:|:rho associated kinase
+478,GSK461364,PLK1,inhibition of polo-like kinase 1 (PLK1):|:PLK
+479,GSK525762A,BRD2;BRD3;BRD4,inhibitor of bromodomain (BRD) and extra-C terminal domain (BET) proteins
+480,GSK591_2110,PMRT5,Chromatin histone methylation
+481,GSK650394_177,SGK1:|:SGK2:|:SGK3,"Other, kinases:|:serum/glucocorticoid regulated kinase"
+482,GSK690693_326,AKT1:|:AKT2:|:AKT3:|:PAK4:|:PAK6:|:PAK7:|:PRKCQ:|:PRKG1:|:PRKX,AKT :|:PI3K/MTOR signaling
+483,GW-2580_193,CSF1R,cFMS kinase :|:RTK signaling
+484,GW-405833,CNR2,cannabinoid receptor agonist:|:partial agonist of cannabinoid receptor 2
+485,GW-843682X,PLK1;PLK3,inhibitor of PLK1 and PLK3
+486,GW441756_1023,NTRK1,growth factor receptor :|:RTK signaling
+487,GW843682X_87,PLK1:|:PLK3,Cell cycle:|: of PLK1 and PLK3:|:PLK
+488,HBX-41108,USP7,inhibition of the deubiquitinase activity of USP7
+489,HC-067047,TRPV4,inhibition of cation channel TRPV4
+490,HG-5-113-01_1142,ABL(T315I):|:ABL1:|:LOK:|:LTK:|:TRCB,Other
+491,HG-5-88-01_1143,ADCK4:|:EGFR,"Other, kinases"
+492,HG6-64-1_159,BRAF,ERK MAPK signaling
+493,HLI 373,MDM2,inhibition of MDM2
+494,hyperforin,"TRPC6,NR1|2,PTGS1,ALOX5",agonist of calcium-permeable ion channels
+495,I-BET-762_1624,BRD2:|:BRD3:|:BRD4,bromodomain :|:Chromatin other:|: of bromodomain (BRD) and extra-C terminal domain (BET) proteins
+496,I-BET-762_275,BRD2:|:BRD3:|:BRD4,bromodomain :|:Chromatin other:|: of bromodomain (BRD) and extra-C terminal domain (BET) proteins
+497,I-BET151,BRD2:|:BRD3:|:BRD4,bromodomain :|: of bromodomain (BRD) and extra-C terminal domain (BET) proteins
+498,I-BRD9_1928,BRD9,Chromatin other
+499,IAP_5620_1428,IAP,?inhibitor of apoptosis proteins (IAPs)
+500,IAP_5620_1428,IAP,?inhibitor of apoptosis proteins (IAPs)
+501,IAP_7638_1429,IAP,?inhibitor of apoptosis proteins (IAPs)
+502,ibrutinib,BTK,B cell receptor signaling pathway
+503,Ibrutinib_1799,BLK:|:BMX:|:BTK,"Bruton's tyrosine kinase (BTK) :|: of Bruton's tyrosine kinase:|:Other, kinases"
+504,IC-87114,PI3Kdelta:|:PIK3CD,of PI3K catalytic subunit delta:|:PI3K/MTOR signaling
+505,IC-87114_236,PI3Kdelta:|:PIK3CD,of PI3K catalytic subunit delta:|:PI3K/MTOR signaling
+506,ICL1100013_1266,N-myristoyltransferase 1/2,Other
+507,Idelalisib_238,PI3Kdelta:|:PIK3CA:|:PIK3CB:|:PIK3CD:|:PIK3CG,of PI3K catalytic subunit delta:|:PI3K :|:PI3K/MTOR signaling
+508,ifosfamide,DNA,DNA Damage
+509,IGF1R_3801_1738,IGFR1,IGF1R signaling
+510,IGFR_3801_1430,IGFR2,IGF2R signaling
+511,imatinib,ABL1;BCR;KIT,"MAPK signaling pathway,Pathways in cancer,Chronic myeloid leukemia"
+512,Imatinib_34,ABL:|:ABL1:|:BCR:|:CSF1R:|:DDR1:|:KIT:|:NTRK1:|:PDGFR:|:PDGFRA:|:PDGFRB:|:RET,"Bcr-Abl kinase , KIT , PDGFR tyrosine kinase receptor :|:Bcr-Abl kinase |KIT |PDGFR tyrosine kinase receptor :|: of BCR-ABL1 and c-KIT:|:Other, kinases"
+513,IMD-0354_442,IKKb,NA
+514,importazole,KPNB1,inhibitor of importin
+515,indisulam,CA9,"inhibitor of amino acid import (GO:0043090), inhibitor of uracil transport (GO:0015857), activator of mitotic cell cycle arrest (GO:0071850), inhibitor of cyclin-dependent protein kinase activity (GO:0004693), inhibitor of cell cycle (GO:0007049), inhibitor of cell proliferation (GO:0008283), effector of gene expression (GO:0010467), inhibitor of carbonate dehydratase activity (GO:0004089)"
+516,IOX2_1230,EGLN1:|:KDM2A:|:KDM5C,hypoxia inducible factor :|:Other
+517,IPA-3_176,PAK1,Cytoskeleton:|:p21 activated kinase
+518,Ipatasertib_1924,"AKT1, AKT, AKT3",PI3K/MTOR 
+519,IPR-456,PLAUR,of the interaction of urokinase receptor with binding partners
+520,IRAK4_4710_1716,IRAK4,NA
+521,Irinotecan_1088,TOP1:|:TOP1MT,DNA replication:|:topoisomerase
+522,isoevodiamine,"TRPV1,IKBKB,NFKB1",NA
+523,isoliquiritigenin,NA,"Flavonoid biosynthesis,Biosynthesis of phenylpropanoids,Metabolic pathways,Biosynthesis of secondary metabolites"
+524,isonicotinohydroxamic acid,HDAC6,NA
+525,ISOX,"HDAC6,sterol 14alpha-demethylase",Steroid biosynthesis
+526,ISOX:bortezomib (250:1 mol/mol),HDAC6:|:PSMB1:|:PSMB2:|:PSMB5:|:PSMD1:|:PSMD2,inhibition of HDAC6; inhibition of 26S proteasome
+527,Ispinesib Mesylate_208,KIF11:|:KSP,kinesin :|:Mitosis
+528,istradefylline,"ADORA2A,ADORA1,ADORA2B,ADORA3","Neuroactive ligand-receptor interaction,Parkinson disease"
+529,itraconazole,"CYP3A,CYP51A1","inhibitor of angiogenesis (GO:0001525),inhibitor of hedgehog signaling pathway,Steroid biosynthesis"
+530,IU1,USP14,of the deubiquitinase activity of USP14:|:ubiquitin C-terminal hydrolase
+531,IWP-2_1576,PORCN,WNT signaling
+532,JAK_8517_1739,"JAK1, JAK2",NA
+533,JAK1_3715_1433,JAK1,NA
+534,JAK1_8709_1718,JAK1,NA
+535,JAK3_7406_1434,JAK3,NA
+536,JNJ38877605_284,MET,RTK 
+537,JNK-9L_157,JNK2:|:JNK3,JNK and p38 signaling
+538,JNK Inhibitor VIII_1043,JNK,JNK and p38 signaling
+539,JQ-1,"BRD2, BRD3, BRD4, BRDT",Chromatin other
+540,JQ-1:carboplatin (1:1 mol/mol),BRDT,inhibition of bromodomain (BRD) and extra-C terminal domain (BET) proteins;inducer of DNA damage
+541,JQ-1:MK-0752 (1:1 mol/mol),APH1A:|:BRDT:|:NCSTN:|:PSEN1:|:PSENEN,inhibition of bromodomain (BRD) and extra-C terminal domain (BET) proteins; of gamma-secretase
+542,JQ-1:navitoclax (2:1 mol/mol),BCL2:|:BCL2L1:|:BCL2L2:|:BRDT,"inhibition of bromodomain (BRD) and extra-C terminal domain (BET) proteins; of BCL2, BCL-xL, and BCL-W"
+543,JQ-1:UNC0638 (2:1 mol/mol),BRDT:|:EHMT1:|:EHMT2,inhibitionof bromodomain (BRD) and extra-C terminal domain (BET) proteins; of EHMT2 and GLP methyltransferase
+544,JQ-1:vorinostat (2:1 mol/mol),BRDT:|:HDAC1:|:HDAC2:|:HDAC3:|:HDAC6:|:HDAC8,"inhibition of bromodomain (BRD) and extra-C terminal domain (BET) proteins; of HDAC1, HDAC2, HDAC3, HDAC6, and HDAC8"
+545,JQ1_1218,BRD2:|:BRD3:|:BRD4:|:BRDT,bromodomain :|:Chromatin other:|: of bromodomain (BRD) and extra-C terminal domain (BET) proteins
+546,JQ1_163,BRD2:|:BRD3:|:BRD4:|:BRDT,bromodomain :|:Chromatin other:|: of bromodomain (BRD) and extra-C terminal domain (BET) proteins
+547,JQ1_2172,BRD2:|:BRD3:|:BRD4:|:BRDT,bromodomain :|:Chromatin other:|: of bromodomain (BRD) and extra-C terminal domain (BET) proteins
+548,JQ12_164,HDAC1:|:HDAC2,Chromatin histone acetylation
+549,JW-480,NCEH1,of serine hydrolase enzyme NCEH
+550,JW-55,TNKS,of tankyrase
+551,JW-7-24-1_256,LCK,"Other, kinases"
+552,JW-7-52-1_83,MTOR,mTOR :|:PI3K/MTOR signaling
+553,JW-74,TNKS:|:TNKS2,of WNT signaling:|:WNT signaling |tankyrase
+554,kb NB 142-70_407,PKD,NA
+555,KH-CB19,CLK1:|:CLK3:|:CLK4:|:DYRK1A,CDC :|: of CDC2-like kinases 1 and 4
+556,KHS101,TACC3,"binder of TACC3, a component of the centrosome and mitotic spindle"
+557,Ki8751,KDR:|:KIT:|:PDGFRA,"inhibition of VEGFR2, c-KIT, and PDGFRA:|:KIT , PDGFR tyrosine kinase receptor , VEGFR :|:KIT |PDGFR tyrosine kinase receptor |VEGFR"
+558,KIN001-042_289,GSK3B,WNT signaling
+559,KIN001-236_286,Angiopoietin-1 receptor:|:ANGPT1,RTK signaling
+560,KIN001-244_287,PDK1:|:PDK1 (PDPK1),Metabolism
+561,KIN001-260_290,IKKB,"Other, kinases"
+562,KIN001-266_291,MAP3K8,ERK MAPK signaling:|:MAPK-interacting kinase
+563,KIN001-270_345,CDK9,Cell cycle
+564,Ko-143,ABCB1:|:ABCC1:|:ABCG2,BCRP :|: of breast cancer resistance protein multidrug transporter (BCRP)
+565,Kobe2602_563,RAS effector,RTK signaling
+566,KPT185,XPO1,inhibitor of exportin 1
+567,KRAS (G12C) Inhibitor-12_1855,KRAS (G12C),ERK MAPK signaling
+568,KU-0063794,MTOR,inhibition of mTOR:|:mTOR
+569,KU-55933,ATM:|:PRKDC,ATM kinase :|:Genome integrity:|: of ataxia telangiectasia mutated (ATM)
+570,KU-55933_1030,ATM:|:PRKDC,ATM kinase :|:Genome integrity:|: of ataxia telangiectasia mutated (ATM)
+571,KU-55933_1030,ATM:|:PRKDC,ATM kinase :|:Genome integrity:|: of ataxia telangiectasia mutated (ATM)
+572,KU-60019,ATM,ATM kinase :|:Genome integrity:|: of ataxia telangiectasia mutated (ATM)
+573,KU-60019_1185,ATM,ATM kinase :|:Genome integrity:|: of ataxia telangiectasia mutated (ATM)
+574,KU 0060648,PRKDC,of DNA-dependent protein kinase
+575,KW-2449,ABL1:|:AURKA:|:AURKB:|:FLT3,"Abl kinase , Aurora kinase , FLT3 :|:Abl kinase |Aurora kinase |FLT3 :|: inhibition of FLT3 and AURKA"
+576,KX2-391,SRC,"peptide mimetic;  inhibition of SRC activity in cells:|:src , tubulin polymerization :|:src |tubulin polymerization"
+577,L-685458,APH1A:|:NCSTN:|:PSEN1:|:PSENEN,inhibition of gamma-secretase
+578,lapatinib,EGFR;ERBB2,"MAPK signaling pathway,ErbB signaling pathway,Pathways in cancer,Breast cancer"
+579,Lapatinib_119,EGFR:|:ERBB2,EGFR :|:EGFR signaling:|: inhibition of EGFR and HER2
+580,Lapatinib_1558,EGFR:|:ERBB2,EGFR :|:EGFR signaling:|: inhibition of EGFR and HER2
+581,LBH-589,HDAC1;HDAC2;HDAC3;HDAC6;HDAC8,"Cell cycle,Notch signaling pathway,Pathways in cancer"
+582,LCL161_1557,"XIAP, cIAP1, cIAP2",Apoptosis regulation
+583,LCL161_439,"XIAP, cIAP1, cIAP2",Apoptosis regulation
+584,LDN-193189_478,ACVR1:|:BMP:|:BMPR1A,bone morphogenic protein :|:Other
+585,LE-135,RARB,antagonist of retinoic acid receptor beta:|:retinoid receptor agonist
+586,Leflunomide_1578,AHR:|:DHODH:|:PTK2B:|:Pyrimidine synthesis inhibitor,dihydroorotate dehydrogenase |PDGFR tyrosine kinase receptor :|:DNA replication
+587,Lenalidomide_1020,CDH5:|:CRBN:|:PTGS2:|:TNF:|:TNFSF11,anticancer :|:Protein stability and degradation
+588,lenvatinib,FLT1;FLT3;KDR;KIT;PDGFRA;PDGFRB,"MAPK signaling pathway,VEGF signaling pathway,Pathways in cancer,Thyroid cancer"
+589,leptomycin B,XPO1,inhibitor of exportin 1
+590,Lestaurtinib_1024,FLT3:|:JAK2:|:NTRK1:|:NTRK2:|:NTRK3,"FLT3 , growth factor receptor , JAK :|:FLT3 |growth factor receptor |JAK :|:Other, kinases"
+591,LFM-A13_192,BTK,"Bruton's tyrosine kinase (BTK) :|:Other, kinases"
+592,LGK974_1598,PORCN,WNT signaling
+593,LGK974_573,PORCN,WNT signaling
+594,LIMK1 inhibitor BMS4_406,LIMK1,Cytoskeleton
+595,linifanib,FLT1;FLT3;KDR,"MAPK signaling pathway,Cytokine-cytokine receptor interaction,PI3K-Akt signaling pathway,VEGF signaling pathway,Pathways in cancer"
+596,Linifanib_277,CSF1:|:CSF1R:|:FLT1:|:FLT3:|:FLT4:|:KDR:|:KIT:|:PDGFRB:|:RET:|:TEK:|:VEGFR1:|:VEGFR2:|:VEGFR3,"of VEGFRs:|:PDGFR tyrosine kinase receptor , VEGFR :|:PDGFR tyrosine kinase receptor |VEGFR :|:RTK signaling"
+597,linsitinib,IGF1R;INSR,"inhibitor of insulin-like growth factor 1 receptor and insulin receptor,Focal adhesion,Adherens junction"
+598,Linsitinib_1510,IGF1R:|:INSR:|:INSRR,IGF-1 :|:IGF1R signaling:|: of insulin-like growth factor 1 receptor and insulin receptor
+599,Linsitinib_185,IGF1R:|:INSR:|:INSRR,IGF-1 :|:IGF1R signaling:|: of insulin-like growth factor 1 receptor and insulin receptor
+600,LJI308_2107,RSK1:|:RSK2:|:RSK3,PI3K/MTOR signaling
+601,lomeguatrib,MGMT,"inhibitor of methylguanine-DNA methyltransferase,"
+602,lovastatin,HMGCR,"inhibitor of HMG-CoA reductase,Terpenoid backbone biosynthesis"
+603,LRRK2-IN-1,DCLK1:|:LRRK2,of leucine-rich repeat kinase 2;  of doublecortin-like kinase:|:leucine rich repeat kinase
+604,Luminespib_1559,HSP90:|:HSP90AA1:|:HSP90AB1,HSP :|:Protein stability and degradation
+605,Luminespib_194,HSP90:|:HSP90AA1:|:HSP90AB1,HSP :|:Protein stability and degradation
+606,LY-2157299,TGFBR1,inhibition of the transforming growth factor beta type 1 receptor:|:TGF beta receptor
+607,LY-2183240,FAAH,"FAAH , FAAH reuptake :|:FAAH |FAAH reuptake :|: inhibition of fatty acid amide hydrolase; Inhibition of anandamide uptake"
+608,LY2109761_1852,TGFB1,Other
+609,manumycin A,FNTA;FNTB,inhibitor of RAS farnesyltransferase
+610,marinopyrrole A,MCL1,putative inhibitor of MCL1
+611,masitinib,KIT;PDGFRA;PDGFRB,"MAPK signaling pathway,Pathways in cancer"
+612,Masitinib_292,FGFR3:|:KIT:|:PDGFRA:|:PDGFRB,"inhibition of c-KIT, PDGFRA, and PDGFRB:|:KIT , PDGFR tyrosine kinase receptor , src :|:KIT |PDGFR tyrosine kinase receptor |src :|:RTK signaling"
+613,MCT1_6447_1436,MCT1,Cell cycle
+614,MCT4_1422_1437,MCT4,NA
+615,Mdivi-1,DNM1,dynamin :|: inhibition of dynamin 1;  inhibition of mitrochondrial division
+616,Merck60,HDAC1:|:HDAC2,"inhibition of HDAC1 and HDAC2,effector of histone acetylation (GO:0016573), effector of histone deacetylase activity (GO:0004407)"
+617,"MetAP2 Inhibitor, A832234_410",MetAP2,Other
+618,methotrexate,DHFR,"inhibitor of dihydrofolate reductase,One carbon pool by folate,Folate biosynthesis"
+619,Methotrexate_1008,Antimetabolite:|:DHFR,dihydrofolate reductase :|:DNA replication:|: inhibition of dihydrofolate reductase
+620,methylstat,KDM3A;KDM4A;KDM4B;KDM4C;KDM4D,inhibitor of lysine specific demethylases
+621,MG-132,CAPN1:|:Proteasome:|:PSMB1:|:PSMB2:|:PSMB5:|:PSMD1:|:PSMD2,of the proteosome:|:proteasome :|:Protein stability and degradation
+622,MG-132_1862,CAPN1:|:Proteasome:|:PSMB1:|:PSMB2:|:PSMB5:|:PSMD1:|:PSMD2,of the proteosome:|:proteasome :|:Protein stability and degradation
+623,MG-132_9,CAPN1:|:Proteasome:|:PSMB1:|:PSMB2:|:PSMB5:|:PSMD1:|:PSMD2,of the proteosome:|:proteasome :|:Protein stability and degradation
+624,MGCD-265,AXL:|:FLT1:|:FLT3:|:KDR:|:MET,of c-MET and VEGFRs:|:VEGFR
+625,MI-1,MEN1,binder of menin; inhibition of menin-MLL fusion protein
+626,MI-2,MEN1,binder of menin; inhibition of menin-MLL fusion protein
+627,Midostaurin_153,c-FGR:|:FLT1:|:FLT3:|:others:|:PKC:|:PPK:|:PRKCG,"FLT3 , KIT , PKC :|:FLT3 |KIT |PKC :|:Other"
+628,MIM1_1996,MCL1,Apoptosis regulation
+629,MIM1_446,MCL1,Apoptosis regulation
+630,MIRA-1_1931,WRN,inhibitor of Werner syndrome helicase activity
+631,Mirin_1048,MRE11,Genome integrity
+632,Mirin_1048,MRE11,Genome integrity
+633,mitomycin,DNA,"response to DNA damage stimulus,DNA synthesis inhibitor"
+634,Mitomycin-C_136,DNA crosslinker,"DNA alkylating , DNA synthesis :|:DNA alkylating |DNA synthesis :|:DNA crosslinker:|:DNA replication"
+635,Mitoxantrone_1810,TOP2A,DNA replication:|:topoisomerase
+636,MK-0752,APH1A:|:NCSTN:|:PSEN1:|:PSENEN,gamma secretase :|: of gamma-secretase
+637,MK-1775,WEE1,Cell cycle
+638,MK-1775_1179,"WEE1, PLK1",Cell cycle
+639,MK-2206,AKT1:|:AKT2:|:AKT3,AKT :|: of AKT1:|:PI3K/MTOR signaling
+640,MK-2206_1053,AKT1:|:AKT2:|:AKT3,AKT :|: of AKT1:|:PI3K/MTOR signaling
+641,MK-2206_1053,AKT1:|:AKT2:|:AKT3,AKT :|: of AKT1:|:PI3K/MTOR signaling
+642,MK-8776_2046,"CHEK1, CHEK2, CDK2",Cell cycle
+643,ML006,S1PR3,agonist of sphingosine 1-phosphate receptor 3
+644,ML029,"NFKB1,CYP3A4",inhibition of antigen receptor-mediated NFkappaB activity
+645,ML031,S1PR2,inhibitor of sphingosine 1-phosphate receptor 2
+646,ML050,GPER1,antagonist of GPR30
+647,ML083,PKM,activator of muscle pyruvate kinase
+648,ML162,NA,selectively kills engineered cells expressing mutant HRAS
+649,ML203,PKM,activator of muscle pyruvate kinase (PKM2)
+650,ML210,GPX4,selectively kills engineered cells expressing mutant HRAS
+651,ML239,FADS2,ML239;  inhibition of breast cancer stem cell proliferation
+652,ML258,BCL2L10,inhibition of BIM-BCL-B interaction
+653,ML311,MCL1,inhibition of MCL1
+654,ML312,SCARB1,"inhibition of scavenger receptor class B, member 1 (SCARB1)-mediated lipid uptake"
+655,ML320,GSK3B,inhibition of GSK3 beta
+656,ML323_1629,UAF1:|:USP1,Protein stability and degradation
+657,ML334 diastereomer,KEAP1:|:NFE2L2,inhibition of KEAP1-NFE2L2 protein-protein interaction
+658,MLN2238,PSMB5,"inhibitor of 20S proteasome at the chymotrypsin-like proteolytic (beta-5) site,Proteasome"
+659,MLN2480,ARAF:|:BRAF:|:RAF1,inhibition of RAF kinases:|:RAF
+660,MN-64_1854,TNKS1:|:TNKS2,WNT signaling
+661,momelotinib,JAK1;JAK2,"Cytokine-cytokine receptor interaction,Signaling pathways regulating pluripotency of stem cells,JAK-STAT signaling pathway"
+662,Motesanib_1029,FLT1:|:FLT4:|:KDR:|:KIT:|:PDGFR:|:RET:|:VEGFR,"KIT , PDGFR tyrosine kinase receptor , VEGFR :|:KIT |PDGFR tyrosine kinase receptor |VEGFR :|:RTK signaling"
+663,MPS-1-IN-1_294,MPS1,Mitosis
+664,MST-312,Telomerase:|:TERT,Genome integrity:|: of telomerase reverse transcriptase
+665,myricetin,NA,"inhibitor of inositol or phosphatidylinositol kinase activity (GO:0004428), inhibitor of cAMP-dependent protein kinase activity (GO:0004691), inhibitor of protein kinase C activity (GO:0004697),"
+666,myriocin,SPTLC1;SPTLC2;SPTLC3,inhibitor of serine palmitoyltransferase
+667,N9-isopropylolomoucine,CCNB1;CDK1;CDK5;CDK5R1,"inhibitor of CDK1/cyclin B and CDK5/p35 complexes,inhibitor of cyclin-dependent protein kinase activity "
+668,nakiterpiosin,TUBB1,"inhibitor of cilium assembly (GO:0042384), effector of smoothened signaling pathway (GO:0007224),inhibitor of microtubule assembly"
+669,narciclasine,RHOA,activates cellular activity of RhoA; modulator of Rho/Rho kinase/LIM kinase/cofilin signaling
+670,navitoclax,BCL2;BCL2L1;BCL2L2,"inhibitor of BCL2, BCL-xL, and BCL-W"",effector of apoptotic process"
+671,navitoclax:birinapant (1:1 mol/mol),BCL-W:|:BCL-XL:|:BCL2:|:BCL2L1:|:BCL2L2,"Apoptosis regulation:|:BCL :|: of BCL2, BCL-xL, and BCL-W"
+672,navitoclax:gemcitabine (1:1 mol/mol),BCL-W:|:BCL-XL:|:BCL2:|:BCL2L1:|:BCL2L2,"Apoptosis regulation:|:BCL :|: of BCL2, BCL-xL, and BCL-W"
+673,navitoclax:MST-312 (1:1 mol/mol),DIABLO;XIAP,SMAC mimetic; inhibitor of inhibitor of apoptosis proteins (IAPs)
+674,navitoclax:piperlongumine (1:1 mol/mol),CMPK1;RRM1;TYMS,"inhibitor of DNA replication; inhibitor of ribonucleotide reductase, thymidylate synthetase, and cytidine monophosphate (UMP-CMP) kinase ,effector of DNA replication (GO:0006260), effector of pyrimidine base biosynthetic process (GO:0019856),Purine metabolism,Pyrimidine metabolism"
+675,navitoclax:pluripotin (1:1 mol/mol),TERT,"inhibitor of cell proliferation (GO:0008283), effector of telomere maintenance via telomere shortening (GO:0010834), inhibitor of cell growth (GO:0016049), activator of apoptotic process (GO:0006915), effector of DNA repair (GO:0006281), inhibitor of telomerase activity (GO:0003720)"
+676,navitoclax:PLX-4032 (1:1 mol/mol),NA,"inhibitor of phosphatidylinositol metabolic process (GO:0046488),?inhibitor of cAMP-mediated signaling (GO:0019933),?effector of catechol oxidase activity (GO:0004097),?inhibitor of melanin biosynthetic process (GO:0042438),?inhibitor of platelet aggregation (GO:0070527),?inhibitor of pigmentation (GO:0043473),?activator of fat cell differentiation (GO:0045444),?inhibitor of oxygen and reactive oxygen species metabolic process (GO:0006800)"
+677,navitoclax:sorafenib (1:1 mol/mol),MAPK1;RASAL1,"promoter of embryonic stem cell self-renewal; inhibitor of Ras-GAP and ERK,activator of stem cell division (GO:0017145)"
+678,Navitoclax_1011,BRAF,"MAPK signaling pathway,ErbB signaling pathway,Pathways in cancer,Melanoma"
+679,Navitoclax_1011,BRAF;FLT3;KDR;RAF1,"MAPK signaling pathway,ErbB signaling pathway,VEGF signaling pathway,Pathways in cancer,Renal cell carcinoma,Thyroid cancer,Hepatocellular carcinoma"
+680,necrostatin-1,RIPK1,"inhibitor of necrotic cell death (GO:0070265),inhibitor of receptor-interacting protein kinase 1"
+681,necrostatin-7,NA,inhibitor of necroptosis
+682,necrosulfonamide,NA,inhibitor of downstream signaling of RIP3 associated with MLKL
+683,nelarabine,POLA1,deoxyguanosine analog; inhibitor of DNA synthesis
+684,Nelarabine_1814,POLA1,"deoxyguanosine analog;  of DNA synthesis:|:DNA replication:|:DNA synthesis , T cell :|:DNA synthesis |T cell"
+685,neopeltolide,NA,"inhibitor of mitochondrial ATP synthesis coupled proton transport (GO:0042776),?effector of ubiquinol-cytochrome-c reductase activity (GO:0008121)"
+686,neratinib,EGFR;ERBB2,"inhibitor of epidermal growth factor receptor signaling pathway (GO:0007173), inhibitor of regulation of cell cycle (GO:0051726), inhibitor of cell proliferation (GO:0008283), activator of cell cycle arrest (GO:0007050), activator of apoptotic process (GO:0006915), activator of cell death (GO:0008219), inhibitor of protein autophosphorylation (GO:0046777), inhibitor of G1/S transition of mitotic cell cycle (GO:0000082), inhibitor of protein tyrosine kinase activity (GO:0004713),EGFR tyrosine kinase inhibitor resistance,ErbB signaling pathway"
+687,neuronal differentiation inducer III,"NEUROD1,NEUROD2",activator of neuron differentiation (GO:0030182)
+688,NG-25_260,MAP4K2:|:TAK1,"Other, kinases"
+689,niclosamide,STAT3,inhibitor of STAT3 signaling
+690,nilotinib,ABL1;BCR;KIT,"inhibitor of ABL1, BCR, and c-KIT"",MAPK signaling pathway,ErbB signaling pathway"
+691,Nilotinib_1013,ABL:|:ABL1:|:BCR:|:KIT,"Abl kinase , Bcr-Abl kinase :|:Abl kinase |Bcr-Abl kinase :|:ABL signaling:|: of ABL1, BCR, and c-KIT"
+692,Nilotinib_1013,ABL:|:ABL1:|:BCR:|:KIT,"Abl kinase , Bcr-Abl kinase :|:Abl kinase |Bcr-Abl kinase :|:ABL signaling:|: of ABL1, BCR, and c-KIT"
+693,nintedanib,FGFR1;FGFR2;FGFR3;FLT1;FLT3;KDR;PDGFRA;PDGFRB,"MAPK signaling pathway,VEGF signaling pathway"
+694,Niraparib_1177,PARP1:|:PARP2,Genome integrity:|:PARP
+695,NPC-26,NA,"induces cell death through a non-apoptotic, mitochondrial-dependent mechanism"
+696,NPK76-II-72-1_257,PLK3,Cell cycle
+697,NSC-207895_269,MDM4,p53 pathway
+698,NSC-87877_147,PTPN11:|:PTPN6:|:SHP-1 (PTPN6):|:SHP-2 (PTPN11),Other
+699,NSC 74859,STAT3,inhibition of STAT3:|:STAT
+700,NSC19630,TP53:|:WRN,apoptosis stimulant:|: of Werner syndrome helicase activity:|:p53 pathway
+701,NSC23766,RAC1:|:TIAM1:|:TRIO,of RAC1-GEF interaction; prevents Rac1 activation by Rac-specific guanine nucleotide exchange factors (GEFs) TrioN and Tiam1:|:Ras GTPase
+702,NSC30930,SRD5A2,inhibition of steroid 5-alpha reductase
+703,NSC319726_461,P53 Mut specific,p53 pathway
+704,NSC48300,TASP1,inhibition of threonine endopeptidase taspase 1
+705,NSC632839,SENP2:|:USP1:|:USP13:|:USP2:|:USP5:|:USP7,inhibition of ubiquitin isopeptidase:|:ubiquitin specific protease
+706,NSC95397,CDC25A:|:CDC25B:|:CDC25C,CDC :|: of cell division cycle 25 phosphatase (CDC25)
+707,NU7441_1038,DNAPK:|:PRKDC,DNA dependent protein kinase :|:Genome integrity
+708,NU7441_1038,DNAPK:|:PRKDC,DNA dependent protein kinase :|:Genome integrity
+709,nutlin-3,MDM2,"effector of proteasomal ubiquitin-dependent protein catabolic process (GO:0043161),	inhibitor of p53-MDM2 interaction"
+710,Nutlin-3a (-)_1047,MDM2,p53 pathway
+711,Nutlin-3a (-)_1047,MDM2,p53 pathway
+712,NVP-231,CERK,ceramidase :|: inhibition of ceramide kinase
+713,NVP-ADW742,IGF1R,IGF1R signaling:|: inhibition of insulin-like growth factor 1 receptor:|:insulin growth factor receptor
+714,NVP-ADW742_1932,IGF1R,IGF1R signaling:|: inhibition of insulin-like growth factor 1 receptor:|:insulin growth factor receptor
+715,NVP-BEZ235,MTOR;PIK3CA;PIK3CB;PIK3CD;PIK3CG,"inhibitor of PI3K and mTOR kinase activity,PI3K-Akt signaling pathway"
+716,NVP-BHG712_295,EPHB4,ephrin :|:RTK signaling
+717,NVP-BSK805,JAK2,of Janus kinase 2:|:JAK
+718,NVP-TAE684,ALK:|:INSR,ALK tyrosine kinase receptor :|: of ALK and ALK-NPM fusion protein:|:RTK signaling
+719,NVP-TAE684_35,ALK:|:INSR,ALK tyrosine kinase receptor :|: of ALK and ALK-NPM fusion protein:|:RTK signaling
+720,O-6-benzylguanine,MGMT,of O(6)-alkylguanine DNA alkyltransferases:|:O6-alkylguanine-DNA alkyltransferase
+721,obatoclax,BCL2;BCL2L1;MCL1,"Apoptosis,inhibitor of MCL1, BCL2, and BCL-xL"""
+722,Obatoclax Mesylate_1068,BCL-W:|:BCL-XL:|:BCL2:|:BCL2L1:|:MCL1,"Apoptosis regulation:|:BCL :|: of MCL1, BCL2, and BCL-xL"
+723,Obatoclax Mesylate_182,BCL-W:|:BCL-XL:|:BCL2:|:BCL2L1:|:MCL1,"Apoptosis regulation:|:BCL :|: of MCL1, BCL2, and BCL-xL"
+724,OF-1_1853,BRPF1B:|:BRPF2,Chromatin histone acetylation
+725,olaparib,PARP1;PARP2,"effector of DNA repair (GO:0006281), inhibitor of cell proliferation (GO:0008283), effector of nucleotide-excision repair (GO:0006289),	inhibitor of poly (ADP-ribose) polymerase 1 and 2,Base excision repair,NF-kappa B signaling pathway,Apoptosis,Necroptosis"
+726,Olaparib_1017,PARP1:|:PARP2,Genome integrity:|: inhibition of poly (ADP-ribose) polymerase 1 and 2:|:PARP
+727,Olaparib_1017,PARP1:|:PARP2,Genome integrity:|: inhibition of poly (ADP-ribose) polymerase 1 and 2:|:PARP
+728,Olaparib_1495,PARP1:|:PARP2,Genome integrity:|: inhibition of poly (ADP-ribose) polymerase 1 and 2:|:PARP
+729,oligomycin A,ATP5L2,"effector of oxidative phosphorylation (GO:0006119), effector of ATPase activity (GO:0016887),"
+730,omacetaxine mepesuccinate,"RPL3,CCND1,MCL1,MYC","inhibitor of protein translation by preventing protein elongation,MAPK signaling pathway,PI3K-Akt signaling pathway,Pathways in cancer,Chronic myeloid leukemia"
+731,Omipalisib_283,MTOR:|:MTORC1:|:MTORC2:|:PI3K (class 1):|:PIK3CA:|:PIK3CB:|:PIK3CD:|:PIK3CG,"mTOR , PI3K :|:mTOR |PI3K :|:PI3K/MTOR signaling"
+732,OSI-027,MTOR:|:MTORC1:|:MTORC2,inhibition of mTORC1 and mTORC2:|:mTOR :|:PI3K/MTOR signaling
+733,OSI-027_1594,MTOR:|:MTORC1:|:MTORC2,inhibition of mTORC1 and mTORC2:|:mTOR :|:PI3K/MTOR signaling
+734,OSI-027_299,MTOR:|:MTORC1:|:MTORC2,inhibition of mTORC1 and mTORC2:|:mTOR :|:PI3K/MTOR signaling
+735,OSI-930,KDR:|:KIT,"of c-KIT and VEGFR2:|:KIT , VEGFR :|:KIT |VEGFR :|:RTK signaling"
+736,OSI-930_298,KDR:|:KIT,"of c-KIT and VEGFR2:|:KIT , VEGFR :|:KIT |VEGFR :|:RTK signaling"
+737,Osimertinib_1919,EGFR,EGFR :|:EGFR signaling
+738,OSU-03012_167,PDK1 (PDPK1):|:PDPK1,Metabolism:|:phosphoinositide dependent kinase
+739,OTX015_1626,BRD2:|:BRD3:|:BRD4,bromodomain :|:Chromatin other
+740,ouabain,ATP1A1;ATP1A2;ATP1A3;ATP1A4;ATP1B1;ATP1B2;ATP1B3;ATP1B4,"cardiac glycoside; inhibitor of the Na+/K+-ATPase,Cardiac muscle contraction,Adrenergic signaling in cardiomyocytes"
+741,oxaliplatin,DNA alkylating agent,DNA replication
+742,Oxaliplatin_1089,DNA alkylating agent,DNA alkylator; organoplatinum re:|:DNA :|:DNA replication
+743,Oxaliplatin_1806,DNA alkylating agent,DNA alkylator; organoplatinum re:|:DNA :|:DNA replication
+744,P22077_1933,USP47:|:USP7,Protein stability and degradation:|:ubiquitin specific protease
+745,PAC-1,CASP3:|:Procaspase-3:|:Procaspase-7,activator of procaspase-3:|:Apoptosis regulation:|:caspase activator
+746,PAC-1_175,CASP3:|:Procaspase-3:|:Procaspase-7,activator of procaspase-3:|:Apoptosis regulation:|:caspase activator
+747,paclitaxel,BCL2:|:MAP2:|:MAP4:|:MAPT:|:Microtubule stabiliser:|:NR1I2:|:TLR4:|:TUBB:|:TUBB1,"activator of protein acetylation (GO:0006473), activator of apoptotic process (GO:0006915), activator of induction of apoptosis (GO:0006917), inhibitor of microtubule depolymerization (GO:0007019), activator of cell death (GO:0008219), activator of histone acetylation (GO:0016573), inhibitor of protein amino acid prenylation (GO:0018346), inhibitor of neuron projection development (GO:0031175), activator of microtubule polymerization (GO:0046785),Gap junction"
+748,Paclitaxel_1080,BCL2:|:MAP2:|:MAP4:|:MAPT:|:Microtubule stabiliser:|:NR1I2:|:TLR4:|:TUBB:|:TUBB1,of microtubule assembly:|:Mitosis:|:tubulin polymerization
+749,Paclitaxel_11,BCL2:|:MAP2:|:MAP4:|:MAPT:|:Microtubule stabiliser:|:NR1I2:|:TLR4:|:TUBB:|:TUBB1,of microtubule assembly:|:Mitosis:|:tubulin polymerization
+750,PAK_5339_1730,PAK4,inhibitor of serine/threonine p21-activating kinase 4
+751,Palbociclib_1054,CDK4:|:CDK6,CDK :|:Cell cycle
+752,Palbociclib_1054,CDK4:|:CDK6,CDK :|:Cell cycle
+753,palmostatin B,LYPLA1,inhibitor of acyl-protein thioesterase 1
+754,pandacostat,HDAC1;HDAC2;HDAC3;HDAC6;HDAC8,"effector of histone acetylation (GO:0016573), effector of histone deacetylase activity (GO:0004407)"
+755,Panobinostat_438,HDAC:|:HDAC1:|:HDAC2:|:HDAC3:|:HDAC4:|:HDAC6:|:HDAC7:|:HDAC8:|:HDAC9,"Chromatin histone acetylation:|:HDAC :|: of HDAC1, HDAC2, HDAC3, HDAC6, and HDAC8"
+756,parbendazole,TUBBS,inhibitor of microtubule assembly
+757,PARP_0108_1459,"PARP1, PARP2, PARP6",Genome integrity
+758,PARP_9482_1460,"PARP1, PARP2, PARP5a",Genome integrity
+759,PARP_9495_1458,"PARP1, PARP2, PARP7",Genome integrity
+760,parthenolide," ADIPOR2,HDAC1, NFKB1,TUBB1",modulator of ROS; modulator of NF-kappa-B signaling
+761,Parthenolide_89,HDAC1,Chromatin histone acetylation:|:natural product; modulator of ROS; modulator of NF-kappa-B signaling:|:NFkB pathway
+762,pazopanib,FLT1;FLT3;KDR;KIT;PDGFRB,"inhibitor of VEGFRs, c-KIT, and PDGFRB,MAPK signaling pathway"
+763,Pazopanib_199,PDGFRA:|:CSF1R:|:FGF1:|:FGFR1:|:FGFR3:|:FLT1:|:FLT3:|:FLT4:|:ITK:|:KDR:|:KIT:|:PDGFRA:|:PDGFRB:|:SH2B3,"of VEGFRs, c-KIT, and PDGFRB:|:KIT , PDGFR tyrosine kinase receptor , VEGFR :|:KIT |PDGFR tyrosine kinase receptor |VEGFR :|:RTK signaling"
+764,PCI-34051_1621,HDAC1:|:HDAC6:|:HDAC8,Chromatin histone acetylation:|: of HDAC8
+765,PD 153035,EGFR:|:KDR,EGFR :|: of EGFR
+766,PD0325901_1060,MAP2K1:|:MEK1:|:MEK2,ERK MAPK signaling:|:MEK
+767,PD0325901_1060,MAP2K1:|:MEK1:|:MEK2,ERK MAPK signaling:|:MEK
+768,PD173074_1049,FGFR1:|:FGFR2:|:FGFR3:|:FGFR4:|:FLT1:|:FLT4:|:KDR:|:PDGFRA:|:PDGFRB,"FGFR , VEGFR :|:FGFR |VEGFR :|:RTK signaling"
+769,PD173074_1049,FGFR1:|:FGFR2:|:FGFR3:|:FGFR4:|:FLT1:|:FLT4:|:KDR:|:PDGFRA:|:PDGFRB,"FGFR , VEGFR :|:FGFR |VEGFR :|:RTK signaling"
+770,PD318088,MAP2K1:|:MAP2K2,of MEK1 and MEK2:|:MEK
+771,PDMP,UGCG,of ceramide glucosyltransferase
+772,Pelitinib_282,EGFR,EGFR :|:EGFR signaling
+773,Pemetrexed_428,ATIC:|:DHFR:|:GART:|:TYMS,dihydrofolate reductase |thymidylate synthase :|:DNA replication
+774,pevonedistat,NAE1,"effector of proteasomal ubiquitin-dependent protein catabolic process (GO:0043161), inhibitor of release of cytoplasmic sequestered NF-kappaB (GO:0008588), activator of cell death (GO:0008219), effector of reactive oxygen species metabolic process (GO:0072593), inhibitor of protein neddylation (GO:0045116), effector of actin cytoskeleton organization (GO:0030036), effector of DNA biosynthetic process (GO:0071897), activator of apoptotic process (GO:0006915),inhibitor of Nedd-8 activating enzyme,"
+775,Pevonedistat_1529,NAE:|:NAE1:|:UBA3,of Nedd-8 activating enzyme:|:nedd activating enzyme :|:Other
+776,Pevonedistat_1529,NAE:|:NAE1:|:UBA3,of Nedd-8 activating enzyme:|:nedd activating enzyme :|:Other
+777,PF-00299804_363,"EGFR, ERBB2, ERBB4",RTK signaling
+778,PF-184,IKBKB,of IKK-2
+779,PF-3758309,PAK4,of serine/threonine p21-activating kinase 4:|:p21 activated kinase
+780,PF-4708671_1129,RPS6KB1:|:S6K1,PI3K/MTOR signaling:|:ribosomal protein
+781,PF-4708671_1129,RPS6KB1:|:S6K1,PI3K/MTOR signaling:|:ribosomal protein
+782,PF-4800567 hydrochloride,CSNK1D:|:CSNK1E,of casein kinase isoforms delta and epsilon
+783,PF-543,Sphingosine Kinase:|:SPHK1,"of sphingosine kinase-1:|:Other, kinases"
+784,PF-562271_158,FAK:|:FAK2:|:PTK2:|:PTK2B,Cytoskeleton:|:focal adhesion kinase
+785,PF-573228,CDK1:|:CDK2:|:CDK7:|:GSK3B:|:IKBKB:|:PTK2,focal adhesion kinase :|: of focal adhesion kinase
+786,PF-750,FAAH,of fatty acid amide hydrolase
+787,PFI-1_1219,BRD4,bromodomain :|:Chromatin other
+788,PFI-3_1530,PB1:|:Polybromo 1:|:SMARCA2:|:SMARCA4,Chromatin other
+789,PFI3_1620,"Polybromo 1, SMARCA4, SMARCA2",Chromatin other
+790,PHA-665752_6,MET,c-Met :|:RTK signaling
+791,PHA-793887,CDK1:|:CDK2:|:CDK4:|:CDK5:|:CDK7:|:CDK9,CDK :|:Cell cycle:|: of cyclin-dependent kinases
+792,PHA-793887_301,CDK1:|:CDK2:|:CDK4:|:CDK5:|:CDK7:|:CDK9,CDK :|:Cell cycle:|: of cyclin-dependent kinases
+793,Phenformin_196,Biguanide agent:|:KCNJ8:|:PRKAA1,AMPK activator:|:Other
+794,phloretin,SLC5A1,"inhibitor of protein kinase C activity (GO:0004697), inhibitor of glucose transmembrane transporter activity (GO:0005355)"
+795,PI-103,CLK4:|:DAPK3:|:HIPK2:|:MTOR:|:PI3Kalpha:|:PIK3CA:|:PIK3CB:|:PIK3CD:|:PIK3CG:|:PIM3:|:PRKDC,"of DNA-PK, PI3K p110 delta, mTORC1, and catalytic subunits of PI3K:|:mTOR , PI3K :|:mTOR |PI3K :|:Other, kinases"
+796,PI-103_302,CLK4:|:DAPK3:|:HIPK2:|:MTOR:|:PI3Kalpha:|:PIK3CA:|:PIK3CB:|:PIK3CD:|:PIK3CG:|:PIM3:|:PRKDC,"of DNA-PK, PI3K p110 delta, mTORC1, and catalytic subunits of PI3K:|:mTOR , PI3K :|:mTOR |PI3K :|:Other, kinases"
+797,PI3Ka_4409_1446,"PI3KA, PI3KD",PI3K/MTOR signaling
+798,Picolinici-acid_1635,NA,Inflammatory related
+799,Pictilisib_1058,PI3K (class 1):|:PIK3CA:|:PIK3CB:|:PIK3CD:|:PIK3CG,of PI3K kinase activity:|:PI3K :|:PI3K/MTOR signaling
+800,Pictilisib_1058,PI3K (class 1):|:PIK3CA:|:PIK3CB:|:PIK3CD:|:PIK3CG,of PI3K kinase activity:|:PI3K :|:PI3K/MTOR signaling
+801,Pictilisib_1527,PI3K (class 1):|:PIK3CA:|:PIK3CB:|:PIK3CD:|:PIK3CG,of PI3K kinase activity:|:PI3K :|:PI3K/MTOR signaling
+802,pifithrin-alpha,"TP53,AHR","inhibitor of transcription (GO:0006350), inhibitor of apoptotic process (GO:0006915),inhibitor of p53-dependent signaling"
+803,pifithrin-mu,HSPA1A;HSPA1B;HSPA1L;TP53,"inhibitor of p53 binding to mitochondria; inhibitor of HSP70;inhibitor of apoptotic process (GO:0006915), inhibitor of intracellular protein transport (GO:0006886), effector of response to radiation (GO:0009314), activator of release of cytochrome c from mitochondria (GO:0001836)"
+804,PIK-93,PI3Kgamma:|:PI4KB:|:PIK3C3:|:PIK3CG,of PI3K catalytic subunit gamma:|:PI3K :|:PI3K/MTOR signaling
+805,PIK-93_303,PI3Kgamma:|:PI4KB:|:PIK3C3:|:PIK3CG,of PI3K catalytic subunit gamma:|:PI3K :|:PI3K/MTOR signaling
+806,Pilaralisib_372,PI3K,PI3K/MTOR 
+807,piperlongumine,NA,"inhibitor of phosphatidylinositol metabolic process (GO:0046488), inhibitor of cAMP-mediated signaling (GO:0019933), effector of catechol oxidase activity (GO:0004097), inhibitor of melanin biosynthetic process (GO:0042438), inhibitor of platelet aggregation (GO:0070527), inhibitor of pigmentation (GO:0043473), activator of fat cell differentiation (GO:0045444), inhibitor of oxygen and reactive oxygen species metabolic process (GO:0006800),modulator of ROS levels"
+808,piperlongumine:MST-312 (1:1 mol/mol),"Induces reactive oxygen species,TERT","natural product; modulator of ROS levels:|:Other,inhibitor of cell proliferation (GO:0008283), effector of telomere maintenance via telomere shortening (GO:0010834), inhibitor of cell growth (GO:0016049), activator of apoptotic process (GO:0006915), effector of DNA repair (GO:0006281), inhibitor of telomerase activity (GO:0003720)"
+809,Piperlongumine_1243,NA,"inhibitor of phosphatidylinositol metabolic process (GO:0046488), inhibitor of cAMP-mediated signaling (GO:0019933), effector of catechol oxidase activity (GO:0004097), inhibitor of melanin biosynthetic process (GO:0042438), inhibitor of platelet aggregation (GO:0070527), inhibitor of pigmentation (GO:0043473), activator of fat cell differentiation (GO:0045444), inhibitor of oxygen and reactive oxygen species metabolic process (GO:0006800),modulator of ROS levels"
+810,pitstop2,CLTA;CLTB;CLTC;CLTCL1,inhibitor of clathrin and clathrin-independent endocytosis
+811,PL-DI,NA,dimer of piperlongumine; inducer of ROS
+812,Platin,NA,DNA alkylator; organoplatinum re
+813,PLK_6522_1451,"PLK1, PLK2, PLK3",Cell cycle
+814,pluripotin,MAPK1;RASAL1,promoter of embryonic stem cell self-renewal; inhibitor of Ras-GAP and ERK;activator of stem cell division;
+815,PLX-4032,BRAF,"MAPK signaling pathway,ErbB signaling pathway,inhibitor of BRAF"
+816,PLX-4720,BRAF:|:KDR,ERK MAPK signaling:|: of BRAF:|:RAF
+817,PLX-4720_1036,BRAF:|:KDR,ERK MAPK signaling:|: of BRAF:|:RAF
+818,PLX-4720_1036,BRAF:|:KDR,ERK MAPK signaling:|: of BRAF:|:RAF
+819,PLX-4720_1371,BRAF:|:KDR,ERK MAPK signaling:|: of BRAF:|:RAF
+820,Podophyllotoxin bromide_1825,NA,Unclassified
+821,Ponatinib_155,ABL:|:ABL1:|:BCR:|:FGFR1:|:FGFR2:|:FGFR3:|:FGFR4:|:FLT3:|:KDR:|:KIT:|:LCK:|:LYN:|:PDGFRA:|:RET:|:SRC:|:TEK:|:TIE2:|:VEGFR2,"Bcr-Abl kinase , FLT3 , PDGFR tyrosine kinase receptor :|:Bcr-Abl kinase |FLT3 |PDGFR tyrosine kinase receptor :|:Other, kinases"
+822,PRIMA-1,ACHE:|:TP53,re-activator of the pro-apoptotic activity of mutant p53:|:TP53
+823,PRIMA-1-Met,TP53:|:TP53 activation,p53 activator:|:p53 pathway:|:re-activator of the pro-apoptotic activity of mutant p53
+824,PRIMA-1MET_1131,TP53,p53 pathway
+825,PRL-3 inhibitor I,PTP4A3,of phosphatase of regenerating liver-3 (PRL3)
+826,procarbazine,DNA,inducer of DNA damage
+827,prochlorperazine,DRD2,"inhibitor of dopamine receptor D2,inhibitor of dopamine receptor activity (GO:0004952), inhibitor of protein export from nucleus (GO:0006611),Neuroactive ligand-receptor interaction,Dopaminergic synapse"
+828,PRT062607_1631,FGR:|:MAP3K9:|:SYK,"Other, kinases:|:syk"
+829,purmorphamine,SMO,"activator of smoothened receptor,activator of ossification (GO:0001503), activator of osteoblast differentiation (GO:0001649), activator of smoothened signaling pathway (GO:0007224), activator of transdifferentiation (GO:0060290)"
+830,PX-12,TXN:|:TXNRD1,of thioredoxin-1:|:thioredoxin
+831,PYR-41,UBA1,of ubiquitin-activating enzyme in cells:|:ubiquitin activating enzyme
+832,pyrazolanthrone,MAPK10;MAPK8;MAPK9,"Inhibitor of Jun N-terminal kinase (JNK) 1/2/3,inhibitor of translation (GO:0006412), inhibitor of protein phosphorylation (GO:0006468), inhibitor of apoptotic process (GO:0006915), inhibitor of inflammatory response (GO:0006954), inhibitor of mRNA transcription (GO:0009299), inhibitor of interleukin-10 biosynthetic process (GO:0042091), inhibitor of interleukin-2 biosynthetic process (GO:0042094), inhibitor of interferon-gamma biosynthetic process (GO:0042095), inhibitor of T cell proliferation (GO:0042098), inhibitor of T cell activation (GO:0042110), inhibitor of interleukin-6 biosynthetic process (GO:0042226), inhibitor of tumor necrosis factor biosynthetic process (GO:0042533), inhibitor of T-helper 1 cell differentiation (GO:0045063), inhibitor of interleukin-1 beta biosynthetic process (GO:0050720), inhibitor of JUN kinase activity (GO:0004705), inhibitor of gene expression (GO:0010467)"
+833,Pyridostatin_2044,G-quadruplex stabiliser,DNA replication
+834,Pyrimethamine_71,DHFR:|:Dihydrofolate reductase (DHFR):|:SLC47A1,dihydrofolate reductase :|:Other
+835,QL-VIII-58_1166,ATR:|:MTOR,Other
+836,QL-X-138_331,BTK,"Other, kinases"
+837,QL-XI-92_329,DDR1,Cytoskeleton
+838,QL-XII-47_235,BMX:|:BTK,"Other, kinases"
+839,QL-XII-61_1203,BMX:|:BTK,"Other, kinases"
+840,QS-11,ARFGAP1,inhibitor of GTPase activating protein of ARF 1 (ARFGAP1)
+841,QS11_151,ARFGAP1,of GTPase activating protein of ARF 1 (ARFGAP1):|:Other
+842,quizartinib,FLT3,"inhibtor of VEGFR3,Hematopoietic cell lineage,Pathways in cancer"
+843,Quizartinib_254,CSF1R:|:FLT3:|:KIT:|:PDGFRA:|:PDGFRB:|:RET,FLT3 :|:inhibtor of VEGFR3:|:RTK signaling
+844,QW-BI-011,EHMT2,of G9a histone methyltransferase
+845,R428,AXL,AXL kinase :|: of the tyrosine-protein kinase receptor UFO
+846,RAF_9304_1453,"ARAF, BRAF, CRAF",ERK MAPK signaling
+847,RAF265,BRAF:|:KDR,"ihibitor of VEGFR2 and BRAF:|:RAF , VEGFR :|:RAF |VEGFR"
+848,Rapamycin_1084,FGF2:|:FKBP1A:|:MTOR:|:MTORC1,of mTOR:|:mTOR :|:PI3K/MTOR signaling
+849,Rapamycin_3,FGF2:|:FKBP1A:|:MTOR:|:MTORC1,of mTOR:|:mTOR :|:PI3K/MTOR signaling
+850,Refametinib_1014,MAP2K1:|:MAP2K2:|:MEK1:|:MEK2,ERK MAPK signaling:|:MEK
+851,Refametinib_1526,MAP2K1:|:MAP2K2:|:MEK1:|:MEK2,ERK MAPK signaling:|:MEK
+852,regorafenib,BRAF;KDR;KIT;RET,"inhibitor of BRAF, RET, KIT, and VEGFR2,MAPK signaling pathway,VEGF signaling pathway
+"
+853,Repligen 136,HDAC3,of HDAC3
+854,RG-108,DNMT1:|:DNMT3B,DNA methyltransferase :|: of DNA methyltransferase
+855,Ribociclib_1632,CDK4:|:CDK6,CDK :|:Cell cycle
+856,rigosertib,PIK3CA;PIK3CB;PLK1,"inhibitor of polo-like kinase 1; inhibitor of PI3K catalytic subunits alpha and beta,Cell cycle"
+857,RITA,MDM2:|:TP53,of p53-MDM2 interaction:|:MDM
+858,RO-3306_1052,CDK1,Cell cycle
+859,RO-3306_1052,CDK1,Cell cycle
+860,RO4929097,APH1A:|:NCSTN:|:PSEN1:|:PSENEN,gamma secretase :|: of gamma-secretase
+861,rTRAIL_1261,TRAIL receptor agonist,Apoptosis regulation
+862,RU-SKI 43_576,Shh,Other
+863,Rucaparib_1175,PARP1:|:PARP2,Genome integrity:|:PARP
+864,ruxolitinib,JAK1;JAK2,"inhibitor of Janus kinases 1 and 2,Chemokine signaling pathway,JAK-STAT signaling pathway"
+865,Ruxolitinib_1507,JAK1:|:JAK2:|:JAK3:|:TYK2,"of Janus kinases 1 and 2:|:JAK :|:Other, kinases"
+866,Ruxolitinib_206,JAK1:|:JAK2:|:JAK3:|:TYK2,"of Janus kinases 1 and 2:|:JAK :|:Other, kinases"
+867,RVX-208_1625,BRD4,Chromatin other
+868,S-Trityl-L-cysteine_41,KIF11,Mitosis
+869,Sabutoclax_1849,BCL-XL:|: BFL1:|:BCL2:|:MCL1,Apoptosis regulation
+870,salermide,SIRT1;SIRT2,"inhibitor of sirtuin 1 and sirtuin 2,"
+871,salermide:PLX-4032 (12:1 mol/mol),NA,NA
+872,Salubrinal_111,EIF2A:|:EIF2S1,eukaryotic translation initiation factor :|:Other
+873,Sapitinib_1549,EGFR:|:ERBB2:|:ERBB3,EGFR :|:EGFR signaling:|:RTK signaling
+874,saracatinib,ABL1;SRC,"inhibitor of SRC and ABL1,ErbB signaling pathway,Chemokine signaling pathway,VEGF signaling pathway"
+875,Saracatinib_38,ABL:|:ABL1:|:LCK:|:SRC:|:YES1,"of SRC and ABL1:|:Other, kinases:|:src"
+876,Savolitinib_1936,MET,RTK signaling
+877,SB-225002,CXCR2,CC chemokine receptor antagonist:|: of chemokine receptor 2
+878,SB-431542,ACVR1C:|:TGFBR1,of the transforming growth factor beta type 1 receptor:|:TGF beta receptor
+879,SB-525334,TGFBR1,inhibitor of the transforming growth factor beta type 1 receptor
+880,SB-743921,KIF11,of kinesin 11:|:kinesin-like spindle protein
+881,SB216763_1025,CCNA2:|:CDK2:|:GSK3A:|:GSK3B,glycogen synthase kinase :|:WNT signaling
+882,SB216763_1025,CCNA2:|:CDK2:|:GSK3A:|:GSK3B,glycogen synthase kinase :|:WNT signaling
+883,SB505124_1194,"TGFBR1, ACVR1B, ACVR1C",RTK 
+884,SB505124_1194,"TGFBR1, ACVR1B, ACVR1C",RTK 
+885,SB505124_476,"TGFBR1, ACVR1B, ACVR1C",RTK 
+886,SB52334_304,ALK5:|:TGFBR1,"of the transforming growth factor beta type 1 receptor:|:Other, kinases:|:TGF beta receptor"
+887,SB590885_1061,BRAF,ERK MAPK signaling:|:RAF
+888,SCH-529074,TP53,activator of mutant p53
+889,SCH-79797,F2R,antagonist of proteinase-activated receptor 1 (PAR1)
+890,SCH772984_1564,ERK1:|:ERK2,ERK MAPK signaling
+891,Seliciclib_110,CDK2:|:CDK7:|:CDK9,CDK :|:Cell cycle
+892,Selisistat_341,SIRT1,Chromatin histone acetylation:|: of sirtuin 1:|:SIRT
+893,selumetinib,MAP2K1;MAP2K2,"MAPK signaling pathway,ErbB signaling pathway"
+894,selumetinib:BRD-A02303741 (4:1 mol/mol),MAP2K1:|:MAP2K2:|:MEK1:|:MEK2,ERK MAPK signaling:|: of MEK1 and MEK2:|:MEK
+895,selumetinib:decitabine (4:1 mol/mol),MAP2K1:|:MAP2K2:|:MEK1:|:MEK2,ERK MAPK signaling:|: of MEK1 and MEK2:|:MEK
+896,selumetinib:GDC-0941 (4:1 mol/mol),MAP2K1:|:MAP2K2:|:MEK1:|:MEK2,ERK MAPK signaling:|: of MEK1 and MEK2:|:MEK
+897,selumetinib:JQ-1 (4:1 mol/mol),DOT1L,inhibitor of histone methyltransferases
+898,selumetinib:MK-2206 (8:1 mol/mol),DNMT1,"inhibitor of DNA methyltransferase,Cysteine and methionine metabolism,MicroRNAs in cancer"
+899,selumetinib:navitoclax (8:1 mol/mol),PIK3C,PI3K-Akt signaling pathway
+900,selumetinib:piperlongumine (8:1 mol/mol),"BRD2, BRD3, BRD4, BRDT",Chromatin other
+901,selumetinib:PLX-4032 (8:1 mol/mol),"AKT1, AKT2",PI3K/MTOR signaling
+902,selumetinib:tretinoin (2:1 mol/mol),BCL2;BCL2L1;BCL2L2,effector of apoptotic process (GO:0006915)
+903,selumetinib:UNC0638 (4:1 mol/mol),NA,"inhibitor of phosphatidylinositol metabolic process (GO:0046488), inhibitor of cAMP-mediated signaling (GO:0019933), effector of catechol oxidase activity (GO:0004097), inhibitor of melanin biosynthetic process (GO:0042438), inhibitor of platelet aggregation (GO:0070527), inhibitor of pigmentation (GO:0043473), activator of fat cell differentiation (GO:0045444), inhibitor of oxygen and reactive oxygen species metabolic process (GO:0006800)"
+904,selumetinib:vorinostat (8:1 mol/mol),,
+905,Selumetinib_1062,RARA;RARB;RARG,"inhibitor of angiogenesis (GO:0001525), activator of apoptotic process (GO:0006915), effector of central nervous system development (GO:0007417), activator of myeloid cell differentiation (GO:0030099), activator of neuron projection development (GO:0031175), activator of neuron projection morphogenesis (GO:0048812),Th17 cell differentiation,Pathways in cancer,Transcriptional misregulation in cancer,Acute myeloid leukemia"
+906,Selumetinib_1498,EHMT1;EHMT2,inhibitor of EHMT2 and GLP methyltransferase
+907,Selumetinib_1736,HDAC1;HDAC2;HDAC3;HDAC6;HDAC8,"Cell cycle,Notch signaling pathway,activator of protein acetylation (GO:0006473), activator of histone acetylation (GO:0016573), inhibitor of deacetylase activity (GO:0019213), effector of cell differentiation (GO:0030154), effector of histone deacetylase activity (GO:0004407), activator of apoptotic process (GO:0006915), inhibitor of cell proliferation (GO:0008283), effector of cell cycle (GO:0007049), activator of cell cycle arrest (GO:0007050), activator of DNA replication (GO:0006260), inhibitor of estrogen receptor activity (GO:0030284), effector of cell death (GO:0008219), effector of T cell homeostasis (GO:0043029), inhibitor of protein kinase B signaling cascade (GO:0043491), activator of cell-substrate adhesion (GO:0031589), effector of determination of adult lifespan (GO:0008340), effector of neuromuscular junction development (GO:0007528), effector of muscle fiber development (GO:0048747), activator of protein phosphorylation (GO:0006468), effector of gene expression (GO:0010467), activator of autophagic cell death (GO:0048102), activator of T cell differentiation (GO:0030217), activator of response to oxidative stress (GO:0006979), effector of regulation of mitochondrial membrane potential (GO:0051881), activator of cellular senescence (GO:0090398), effector of immune response (GO:0006955), effector of angiogenesis (GO:0001525), inhibitor of production of molecular mediator involved in inflammatory response (GO:0002532), inhibitor of G1/S transition of mitotic cell cycle (GO:0000082), inhibitor of 1-phosphatidylinositol-3-kinase activity (GO:0016303), inhibitor of RNA cap binding (GO:0000339), activator of inflammatory response (GO:0006954), activator of cardiac muscle cell differentiation (GO:0055007), effector of chromatin remodeling (GO:0006338), activator of response to endoplasmic reticulum stress (GO:0034976), effector of calcium ion homeostasis (GO:0055074), activator of reactive oxygen species metabolic process (GO:0072593), inhibitor of cytokine secretion (GO:0050663), activator of cyclin-dependent protein kinase inhibitor activity (GO:0004861), inhibitor of tumor necrosis factor production (GO:0032640), inhibitor of transdifferentiation (GO:0060290), effector of cell migration (GO:0016477), activator of histone H3 acetylation (GO:0043966), activator of chromatin assembly (GO:0031497), inhibitor of transcription, DNA-dependent (GO:0006351), activator of mitotic cell cycle arrest (GO:0071850), activator of epithelial cell differentiation (GO:0030855), effector of DNA damage response, signal transduction by p53 class mediator (GO:0030330), effector of histone deacetylation (GO:0016575), activator of interleukin-10 production (GO:0032613), effector of cytoplasmic microtubule organization (GO:0031122), activator of nitric oxide biosynthetic process (GO:0006809), inhibitor of double-strand break repair (GO:0006302), effector of chromatin assembly or disassembly (GO:0006333), activator of protein sumoylation (GO:0016925), activator of proteasomal protein catabolic process (GO:0010498), activator of lytic viral release (GO:0019077), activator of protein dephosphorylation (GO:0006470), inhibitor of interleukin-12 biosynthetic process (GO:0042090), inhibitor of natural killer cell activation (GO:0030101), effector of T cell receptor signaling pathway (GO:0050852), effector of stress-activated MAPK cascade (GO:0051403), effector of JAK-STAT cascade (GO:0007259), inhibitor of behavioral response to formalin induced pain (GO:0061368), inhibitor of cytokine production involved in inflammatory response (GO:0002534), activator of mRNA transcription (GO:0009299), effector of chloride channel activity (GO:0005254), activator of autophagy (GO:0006914), activator of response to DNA damage stimulus (GO:0006974)"
+908,semagacestat,APH1A;NCSTN;PSEN1;PSENEN,"	
+Notch signaling pathway,Neurotrophin signaling pathway,Alzheimer disease"
+909,Sepantronium bromide_1941,BIRC5,Apoptosis regulation:|: of survivin expression:|:survivin
+910,Sepantronium bromide_268,BIRC5,Apoptosis regulation:|: of survivin expression:|:survivin
+911,serdemetan,MDM2,inhibitor of MDM2
+912,serdemetan:SCH-529074 (1:1 mol/mol),MDM2,of MDM2:|:MDM :|:p53 pathway
+913,Serdemetan_1133,TP53,activator of mutant p53
+914,SGC0946_1264,DOT1L,Chromatin histone methylation:|:histone lysine methyltransferase
+915,SGX-523,MET,hepatocyte growth factor receptor :|: of MET
+916,Shikonin_170,not defined,Other
+917,SID 26681509,CTSL1,of cathepsin L
+918,sildenafil,PDE5A,cGMP-PKG signaling pathway
+919,silmitasertib,CSNK2A1;CSNK2A2,inhibitor of casein kinase 2
+920,simvastatin,HMGCR,"effector of cholesterol metabolic process (GO:0008203),Terpenoid backbone biosynthesis"
+921,Sinularin_1838,NA,Unclassified
+922,sirolimus,MTOR,"inhibitor of immune response,mTOR signaling pathway"
+923,sirolimus:bortezomib (250:1 mol/mol),PSMB1;PSMB2;PSMB5;PSMD1;PSMD2,"effector of proteasomal ubiquitin-dependent protein catabolic process (GO:0043161),Proteasome"
+924,sitagliptin,DPP4,Protein digestion and absorption
+925,SJ-172550,MDM2:|:MDM4:|:TP53,of p53-MDM2 interaction:|:MDM
+926,skepinone-L,MAPK14,inhibitor of p38 MAPK
+927,SKI-II,SPHK1,of sphingosine kinase 1:|:sphingosine kinase
+928,SL0101_1039,AURKB:|:PIM1:|:PIM3:|:RSK,"Other, kinases"
+929,SMER-3,CUL1:|:SKP1,of E3-ubiquitin ligase
+930,SN-38,TOP1,DNA replication:|:metabolite of irinotecan;  of topoisomerase I:|:topoisomerase
+931,SN-38_1490,TOP1,DNA replication:|:metabolite of irinotecan;  of topoisomerase I:|:topoisomerase
+932,SN-38_1494,TOP1,DNA replication:|:metabolite of irinotecan;  of topoisomerase I:|:topoisomerase
+933,SNS-032,CDK16:|:CDK17:|:CDK2:|:CDK7:|:CDK9:|:CDKL5,"CDK , cell cycle , MCL1 :|:CDK |cell cycle |MCL1 :|: of cyclin-dependent kinases"
+934,SNX-2112,HSP90:|:HSP90AA1:|:HSP90B1,HSP :|: of HSP90alpha and HSP90beta:|:Protein stability and degradation
+935,SNX-2112:bortezomib (250:1 mol/mol),HSP90:|:HSP90AA1:|:HSP90B1,HSP :|: of HSP90alpha and HSP90beta:|:Protein stability and degradation
+936,SNX-2112_328,HSP90AA1:|:HSP90B1:|:PSMB1:|:PSMB2:|:PSMB5:|:PSMD1:|:PSMD2,of HSP90alpha and HSP90beta; of 26S proteasome
+937,sorafenib,BRAF:|:DDR2:|:FGFR1:|:FLT1:|:FLT3:|:FLT4:|:KDR:|:KIT:|:PDGFR:|:PDGFRB:|:RAF:|:RAF1:|:RET:|:VEGFR,"FLT3 , KIT , PDGFR tyrosine kinase receptor , RAF , RET tyrosine kinase , VEGFR :|:FLT3 |KIT |PDGFR tyrosine kinase receptor |RAF |RET tyrosine kinase |VEGFR :|: of BRAF, CRAF, and VEGFR2:|:RTK signaling"
+938,Sorafenib_1085,BRAF:|:DDR2:|:FGFR1:|:FLT1:|:FLT3:|:FLT4:|:KDR:|:KIT:|:PDGFR:|:PDGFRB:|:RAF:|:RAF1:|:RET:|:VEGFR,"FLT3 , KIT , PDGFR tyrosine kinase receptor , RAF , RET tyrosine kinase , VEGFR :|:FLT3 |KIT |PDGFR tyrosine kinase receptor |RAF |RET tyrosine kinase |VEGFR :|: of BRAF, CRAF, and VEGFR2:|:RTK signaling"
+939,Sorafenib_30,BRAF:|:DDR2:|:FGFR1:|:FLT1:|:FLT3:|:FLT4:|:KDR:|:KIT:|:PDGFR:|:PDGFRB:|:RAF:|:RAF1:|:RET:|:VEGFR,"FLT3 , KIT , PDGFR tyrosine kinase receptor , RAF , RET tyrosine kinase , VEGFR :|:FLT3 |KIT |PDGFR tyrosine kinase receptor |RAF |RET tyrosine kinase |VEGFR :|: of BRAF, CRAF, and VEGFR2:|:RTK signaling"
+940,sotrastaurin,PRKCB,"T cell receptor signaling pathway,Inflammatory mediator regulation of TRP channels"
+941,spautin-1,USP10;USP13,inhibitor of the deubiquitinase activity of USP13 and USP10
+942,Sphingosine Kinase 1 Inhibitor II_408,SPHK1,inhibitor of D-erythro-sphingosine kinase activity (GO:0017050)
+943,SR-II-138A,EIF4A2:|:EIF4E:|:EIF4G1,silvestrol analog; inhibits translation by modulating the eIF4F complex
+944,SR1001,RORA:|:RORC,synthetic ROR ligand; suppressor of TH17 differentiation
+945,SR8278,NR1D1,antagonist of Rev-ErbAalpha
+946,SRT-1720,SIRT1,activator of sirtuin-1:|:SIRT activator
+947,staurosporine,NA,"effector of cytokinesis, actomyosin contractile ring assembly (GO:0000915), inhibitor of protein kinase C activity (GO:0004697), effector of spindle midzone assembly involved in mitosis (GO:0051256)"
+948,Staurosporine_1034,Broad spectrum kinase inhibitor,of multiple kinases:|:RTK signaling
+949,StemRegenin 1,AHR,aryl hydrocarbon receptor antagonist:|: of aryl hydrocarbon receptor
+950,STF-31,NAMPT,of nicotinamide phosphoribosyltransferase
+951,STF-62247_258,Autophagy inducer,autophagy inducer:|:Other
+952,SU11274,MET,hepatocyte growth factor receptor |tyrosine kinase :|: of MET:|:RTK signaling
+953,SU11274_285,MET,hepatocyte growth factor receptor |tyrosine kinase :|: of MET:|:RTK signaling
+954,sunitinib,FLT1;FLT3;KDR;KIT;PDGFRA;PDGFRB,"inhibitor of VEGFRs, c-KIT, and PDGFR alpha and beta"",MAPK signaling pathway,Ras signaling pathway,PI3K-Akt signaling pathway,VEGF signaling pathway"
+955,Sunitinib_5,CSF1R:|:FGFR1:|:FLT1:|:FLT3:|:FLT4:|:KDR:|:KIT:|:PDGFR:|:PDGFRA:|:PDGFRB:|:RET:|:VEGFR,"FLT3 , KIT , PDGFR tyrosine kinase receptor , RET tyrosine kinase , VEGFR :|:FLT3 |KIT |PDGFR tyrosine kinase receptor |RET tyrosine kinase |VEGFR :|: of VEGFRs, c-KIT, and PDGFR alpha and beta:|:RTK signaling"
+956,SZ4TA2,BCL2L1,of BCL-xL
+957,T0901317_333,FXR:|:LXR:|:NCOA1:|:NCOA2:|:NR1H2:|:NR1H3:|:NR1I2:|:RXRB,LXR agonist:|:Other
+958,tacedinaline,HDAC1;HDAC2;HDAC3;HDAC6;HDAC8,"inhibitor of deacetylase activity (GO:0019213),Cell cycle"
+959,tacrolimus,PPP3CA;PPP3CB;PPP3CC;PPP3R1;PPP3R2,"MAPK signaling pathway,Cellular senescence,Osteoclast differentiation,Natural killer cell mediated cytotoxicity,Th1 and Th2 cell differentiation,Th17 cell differentiation,T cell receptor signaling pathway"
+960,TAF1_5496_1732,TAF1,Other
+961,TAK-715_221,MAPK14:|:p38alpha:|:p38beta,JNK and p38 signaling:|:p38 MAPK
+962,Talazoparib_1259,PARP1:|:PARP2,Genome integrity:|:PARP
+963,Talazoparib_1259,PARP1:|:PARP2,Genome integrity:|:PARP
+964,tamatinib,SYK,"inhibitor of monocyte activation (GO:0042117), inhibitor of neutrophil activation (GO:0042119), inhibitor of B cell activation (GO:0042113), inhibitor of cytokine production (GO:0001816), inhibitor of platelet aggregation (GO:0070527), inhibitor of arachidonic acid secretion (GO:0050482), inhibitor of chemokine production (GO:0032602), inhibitor of cell migration (GO:0016477), inhibitor of lymphocyte proliferation (GO:0046651), effector of protein phosphorylation (GO:0006468), inhibitor of B cell receptor signaling pathway (GO:0050853), inhibitor of Fc receptor mediated stimulatory signaling pathway (GO:0002431), activator of apoptotic process (GO:0006915), inhibitor of peptidyl-tyrosine phosphorylation (GO:0018108), inhibitor of inflammatory response (GO:0006954), activator of B cell differentiation (GO:0030183), inhibitor of phospholipase C activity (GO:0004629)"
+965,tamoxifen,ESR1;ESR2,"inhibitor of ESR2 (Gene ID: 2100), inhibitor of ESR1 (Gene ID: 2099), inhibitor of ABCB1 (Gene ID: 5243), inhibitor of AKR1C3 (Gene ID: 8644), inhibitor of CHUK (Gene ID: 1147), inhibitor of CYP1B1 (Gene ID: 1545), inhibitor of CYP2C8 (Gene ID: 1558), inhibitor of EBP (Gene ID: 10682), inhibitor of KCNA3 (Gene ID: 3738), inhibitor of KCNH2 (Gene ID: 3757), inhibitor of PRKCA (Gene ID: 5578), inhibitor of PRKCB (Gene ID: 5579), inhibitor of SIGMAR1 (Gene ID: 10280), antagonist of EBP (Gene ID: 10682), antagonist of ESR1 (Gene ID: 2099), antagonist of ESR2 (Gene ID: 2100), antagonist of GPER (Gene ID: 2852), antagonist of PRKCA (Gene ID: 5578), antagonist of PRKCB (Gene ID: 5579), antagonist of PRKCD (Gene ID: 5580), antagonist of PRKCE (Gene ID: 5581), antagonist of PRKCG (Gene ID: 5582), antagonist of PRKCI (Gene ID: 5584), antagonist of PRKCQ (Gene ID: 5588), antagonist of PRKCZ (Gene ID: 5590),Estrogen signaling pathway"
+966,Tamoxifen_1199,EBP:|:ESR1:|:ESR2:|:GPER1:|:PRKCA:|:PRKCB:|:PRKCD:|:PRKCE:|:PRKCG:|:PRKCI:|:PRKCQ:|:PRKCZ,"estrogen receptor antagonist, selective estrogen receptor modulator (SERM):|:estrogen receptor antagonist|selective estrogen receptor modulator (SERM):|:Hormone-related:|:modulator of estrogen receptors"
+967,Tamoxifen_1199,EBP:|:ESR1:|:ESR2:|:GPER1:|:PRKCA:|:PRKCB:|:PRKCD:|:PRKCE:|:PRKCG:|:PRKCI:|:PRKCQ:|:PRKCZ,"estrogen receptor antagonist, selective estrogen receptor modulator (SERM):|:estrogen receptor antagonist|selective estrogen receptor modulator (SERM):|:Hormone-related:|:modulator of estrogen receptors"
+968,tandutinib,FLT3;KIT,"MAPK signaling pathway,PI3K-Akt signaling pathway"
+969,tanespimycin,HSP90AA1,effector of protein folding (GO:0006457)
+970,tanespimycin:bortezomib (250:1 mol/mol),HSP90:|:HSP90AA1,HSP :|: of HSP90:|:Protein stability and degradation
+971,tanespimycin:gemcitabine (1:1 mol/mol),PSMB1;PSMB2;PSMB5;PSMD1;PSMD2,"effector of proteasomal ubiquitin-dependent protein catabolic process (GO:0043161),Proteasome"
+972,Tanespimycin_1026,CMPK1;RRM1;TYMS,"inhibitor of DNA replication; inhibitor of ribonucleotide reductase, thymidylate synthetase, and cytidine monophosphate (UMP-CMP) kinase,effector of DNA replication (GO:0006260), effector of pyrimidine base biosynthetic process (GO:0019856),Purine metabolism,Pyrimidine metabolism"
+973,TANK_1366_1461,TNKS,inhibitor of tankyrase
+974,Taselisib_1561,PI3K (beta sparing):|:PIK3CA,PI3K :|:PI3K/MTOR signaling
+975,Telomerase Inhibitor IX_1930,TERT,"inhibitor of cell proliferation (GO:0008283), effector of telomere maintenance via telomere shortening (GO:0010834), inhibitor of cell growth (GO:0016049), activator of apoptotic process (GO:0006915), effector of DNA repair (GO:0006281), inhibitor of telomerase activity (GO:0003720)
+MeSH term annotation(s)"
+976,temozolomide,DNA,DNA alkylator
+977,Temozolomide_1375,DNA alkylating agent:|:MGMT,DNA alkylating :|:DNA alkylator:|:DNA replication
+978,Temozolomide_1375,DNA alkylating agent:|:MGMT,DNA alkylating :|:DNA alkylator:|:DNA replication
+979,temsirolimus,MTOR,"ErbB signaling pathway,mTOR signaling pathway"
+980,Temsirolimus_1016,MTOR,of mTOR:|:mTOR :|:PI3K/MTOR signaling
+981,teniposide,MTOR,"ErbB signaling pathway,mTOR signaling pathway"
+982,Teniposide_1809,TOP2A:|:TOP2B,DNA replication:|: of topoisomerase II:|:topoisomerase
+983,Tenovin-6_342,SIRT:|:SIRT1:|:SIRT2:|:SIRT3,Chromatin histone acetylation:|:SIRT
+984,TG-100-115,PIK3CA:|:PIK3CB:|:PIK3CD:|:PIK3CG,of PI3K catalytic subunits delta and gamma:|:PI3K
+985,TG-101348,JAK2,"effector of cytokine-mediated signaling pathway (GO:0019221), inhibitor of protein phosphorylation (GO:0006468), inhibitor of hemopoiesis (GO:0030097),JAK-STAT signaling pathway"
+986,TGX-221,PIK3CB,inhibitor of PI3K catalytic subunit beta
+987,TGX221_94,PI3Kbeta:|:PIK3CB:|:PIK3CD,of PI3K catalytic subunit beta:|:PI3K :|:PI3K/MTOR signaling
+988,thalidomide,CRBN,"binder of tumor necrosis factor-activated receptor activity (GO:0005031),Cytokine-cytokine receptor interaction,NF-kappa B signaling pathway,Hematopoietic cell lineage,TNF signaling pathway"
+989,Thapsigargin_180,SERCA,Other
+990,THZ-2-102-1_346,CDK7,Cell cycle
+991,THZ-2-49_344,CDK9,Cell cycle
+992,tigecycline,30S ribosomal subunit,Ribosome
+993,tipifarnib-P1,Farnesyl-transferase (FNTA):|:FNTA:|:FNTB,farnesyltransferase :|: of farnesyltransferase:|:Other
+994,tipifarnib-P2,FNTA,Terpenoid backbone biosynthesis
+995,Tipifarnib_204,FNTA,Terpenoid backbone biosynthesis
+996,tivantinib,MET,"inhibitor of microtubule assembly,Ras signaling pathway,Focal adhesion,Adherens junction"
+997,tivozanib,FLT1;FLT3;KDR,"inhibitor of angiogenesis (GO:0001525),MAPK signaling pathway,VEGF signaling pathway"
+998,Tivozanib_312,FLT1:|:FLT3:|:FLT4:|:KDR:|:KIT:|:PDGFRA:|:PDGFRB:|:VEGFR1:|:VEGFR2:|:VEGFR3,of VEGFRs:|:RTK signaling:|:VEGFR
+999,TL-1-85_261,TAK,"Other, kinases"
+1000,TL-2-105_211,not defined,Other
+1001,topotecan,TOP1,"inhibitor of DNA topoisomerase type I activity (GO:0003917), inhibitor of cell proliferation (GO:0008283),"
+1002,Topotecan_1808,TOP1:|:TOP1MT,DNA replication:|: of topoisomerase I:|:topoisomerase
+1003,Torin 2_371,mTOR,PI3K/MTOR signaling
+1004,tosedostat,ANPEP;LAP3;NPEPPS,"Hematopoietic cell lineage,inhibitor of leucine aminopeptidase 3 (LAP), puromycin-sensitive aminopeptidase (PuSA), and aminopeptidase N"
+1005,Tozasertib_1096,AURKA:|:AURKB:|:AURKC:|:LCK:|:others,"Aurora kinase , Bcr-Abl kinase , FLT3 , JAK :|:Aurora kinase |Bcr-Abl kinase |FLT3 |JAK :|: of aurora kinases:|:Mitosis"
+1006,Tozasertib_32,AURKA:|:AURKB:|:AURKC:|:LCK:|:others,"Aurora kinase , Bcr-Abl kinase , FLT3 , JAK :|:Aurora kinase |Bcr-Abl kinase |FLT3 |JAK :|: of aurora kinases:|:Mitosis"
+1007,TPCA-1,IKBKB:|:IKK2,"IKK :|: of IKK-2:|:Other, kinases"
+1008,TPCA-1_305,IKBKB:|:IKK2,"IKK :|: of IKK-2:|:Other, kinases"
+1009,trametinib,MAP2K1;MAP2K2,"MAPK signaling pathway,ErbB signaling pathway"
+1010,Trametinib_1372,MAP2K1:|:MAP2K2:|:MEK1:|:MEK2,ERK MAPK signaling:|: of MEK1 and MEK2:|:MEK
+1011,Trametinib_1372,MAP2K1:|:MAP2K2:|:MEK1:|:MEK2,ERK MAPK signaling:|: of MEK1 and MEK2:|:MEK
+1012,tretinoin,RARA;RARB;RARG,"inhibitor of angiogenesis (GO:0001525), activator of apoptotic process (GO:0006915), effector of central nervous system development (GO:0007417), activator of myeloid cell differentiation (GO:0030099), activator of neuron projection development (GO:0031175), activator of neuron projection morphogenesis (GO:0048812),Th17 cell differentiation,Pathways in cancer,Transcriptional misregulation in cancer,Acute myeloid leukemia
+"
+1013,tretinoin:carboplatin (2:1 mol/mol),RARA:|:RARB:|:RARG:|:Retinoic acid,agonist of retinoid acid receptors:|:Other:|:retinoid receptor agonist
+1014,tretinoin:navitoclax (4:1 mol/mol),RARA;RARB;RARG,"agonist of retinoid acid receptors,"
+1015,Tretinoin_1009,BCL2;BCL2L1;BCL2L2,effector of apoptotic process (GO:0006915)
+1016,triazolothiadiazine,PDE4A;PDE4B;PDE4D,inhibitor of phosphdiesterase 4A/B/D
+1017,Trichostatin A_437,HDAC:|:HDAC1:|:HDAC10:|:HDAC2:|:HDAC3:|:HDAC4:|:HDAC5:|:HDAC6:|:HDAC7:|:HDAC8:|:HDAC9,Chromatin histone acetylation:|:HDAC
+1018,trifluoperazine,DRD2,"inhibitor of protein export from nucleus (GO:0006611), inhibitor of cell proliferation (GO:0008283), effector of phosphatidylinositol 3-kinase cascade (GO:0014065), inhibitor of peptidyl-serine phosphorylation (GO:0018105), inhibitor of peptidyl-threonine phosphorylation (GO:0018107),Neuroactive ligand-receptor interaction,Dopaminergic synapse"
+1019,triptolide,"RPAP2,ERCC3",inhibitor of RNA polymerase II
+1020,TTK_3146_1464,TTK,Mitosis
+1021,tubastatin A,HDAC6,inhibitor of tubulin deacetylase activity of HDAC6
+1022,Tubastatin A_265,HDAC1:|:HDAC6:|:HDAC8,Chromatin histone acetylation:|:HDAC :|: of tubulin deacetylase activity of HDAC6
+1023,TW-37,BCL2;BCL2L1,inhibitor of BCL2 and BCL-Xl
+1024,TW 37_1149,BCL-XL:|:BCL2:|:BCL2L1:|:MCL1,Apoptosis regulation:|:BCL :|: of BCL2 and BCL-xL
+1025,TWS119_366,GSK3,WNT 
+1026,Ulixertinib_1908,"ERK1, ERK2",ERK MAPK 
+1027,Ulixertinib_2047,"ERK1, ERK2",ERK MAPK 
+1028,ULK1_4989_1733,ULK1,"Other, kinases"
+1029,UMI-77_1939,MCL1,Apoptosis regulation
+1030,UNC0321,EHMT2,histone lysine methyltransferase :|: of G9a histone methyltransferase
+1031,UNC0638,EHMT1:|:EHMT2:|:G9a and GLP methyltransferases,Chromatin histone methylation:|:histone lysine methyltransferase :|: of EHMT2 and GLP methyltransferase
+1032,UNC0638:navitoclax (1:1 mol/mol),EHMT1:|:EHMT2:|:G9a and GLP methyltransferases,Chromatin histone methylation:|:histone lysine methyltransferase :|: of EHMT2 and GLP methyltransferase
+1033,UNC0638_1236,EHMT1:|:EHMT2:|:G9a and GLP methyltransferases,Chromatin histone methylation:|:histone lysine methyltransferase :|: of EHMT2 and GLP methyltransferase
+1034,UNC0638_245,BCL2:|:BCL2L1:|:BCL2L2:|:EHMT1:|:EHMT2,"of EHMT2 and GLP methyltransferase; of BCL2, BCL-xL, and BCL-W"
+1035,UNC0642_1263,EHMT1:|:EHMT2:|:G9a(EHMT2):|:GLP(EHMT1),Chromatin histone methylation:|:histone lysine methyltransferase
+1036,UNC1215_1262,L3MBTL3,Chromatin other:|:L3MBTL antagonist
+1037,Uprosertib_1553,"AKT1, AKT2, AKT3",PI3K/MTOR 
+1038,Uprosertib_2106,"AKT1, AKT2, AKT3",PI3K/MTOR 
+1039,VAF-347,AHR,of aryl hydrocarbon receptor
+1040,valdecoxib,PTGS2,"inhibitor of prostaglandin biosynthetic process (GO:0001516), inhibitor of one-carbon metabolic process (GO:0006730), effector of cyclooxygenase pathway (GO:0019371), effector of arachidonic acid metabolic process (GO:0019369),Arachidonic acid metabolism"
+1041,vandetanib,EGFR;KDR,"MAPK signaling pathway,ErbB signaling pathway,VEGF signaling pathway"
+1042,VE-822_1613,ATM:|:ATR:|:MTOR:|:PIK3CG,ATR kinase :|:Genome integrity
+1043,VE821_2111,ATR,Genome integrity
+1044,veliparib,PARP1;PARP2,"inhibitor of poly (ADP-ribose) polymerase 1 (PARP1) and 2 (PARP2),Apoptosis,Necroptosis"
+1045,Veliparib_1018,PARP1:|:PARP2,Genome integrity:|: of poly (ADP-ribose) polymerase 1 (PARP1) and 2 (PARP2):|:PARP
+1046,Venetoclax_1909,BCL2,Apoptosis regulation:|:BCL :|: of BCL2
+1047,Venotoclax_412,BCL-2 selective,Apoptosis regulation
+1048,VER-155008,HSPA1A;HSPA1B;HSPA1L,"inhibitor of cell proliferation (GO:0008283), activator of apoptotic process (GO:0006915), activator of cell death (GO:0008219), activator of protein catabolic process (GO:0030163), effector of protein folding (GO:0006457), effector of response to unfolded protein (GO:0006986)"
+1049,Vinblastine_1004,JUN:|:Microtubule destabiliser:|:TUBA1A:|:TUBB:|:TUBD1:|:TUBE1:|:TUBG1,"microtubule , tubulin polymerization :|:microtubule |tubulin polymerization :|:Mitosis"
+1050,Vinblastine_1004,JUN:|:Microtubule destabiliser:|:TUBA1A:|:TUBB:|:TUBD1:|:TUBE1:|:TUBG1,"microtubule , tubulin polymerization :|:microtubule |tubulin polymerization :|:Mitosis"
+1051,vincristine,TUBBS,"inhibitor of mictrotubule assembly,Gap junction"
+1052,Vincristine_1818,,Mitosis
+1053,Vinorelbine_140,Microtubule destabiliser:|:TUBA1A:|:TUBA1B:|:TUBA1C:|:TUBA3C:|:TUBA3D:|:TUBA3E:|:TUBA4A:|:TUBB:|:TUBB1:|:TUBB2A:|:TUBB2B:|:TUBB3:|:TUBB4A:|:TUBB4B:|:TUBB6:|:TUBB8,Mitosis:|:tubulin polymerization
+1054,Vinorelbine_2048,Microtubule destabiliser:|:TUBA1A:|:TUBA1B:|:TUBA1C:|:TUBA3C:|:TUBA3D:|:TUBA3E:|:TUBA4A:|:TUBB:|:TUBB1:|:TUBB2A:|:TUBB2B:|:TUBB3:|:TUBB4A:|:TUBB4B:|:TUBB6:|:TUBB8,Mitosis:|:tubulin polymerization
+1055,Vismodegib_1033,SMO,"hedgehog pathway , smoothened receptor antagonist:|:hedgehog pathway |smoothened receptor antagonist:|:Other"
+1056,VNLG/124_271,"HDAC:|:HDAC,RAR:|:RAR",Chromatin histone acetylation
+1057,vorapaxar,F2R,"antagonist of proteinase-activated receptor 1 (PAR1),Calcium signaling pathway,cAMP signaling pathway,Neuroactive ligand-receptor interaction,Complement and coagulation cascades,Platelet activation"
+1058,vorinostat,HDAC1;HDAC2;HDAC3;HDAC6;HDAC8,"Cell cycle,Notch signaling pathway,activator of protein acetylation (GO:0006473), activator of histone acetylation (GO:0016573), inhibitor of deacetylase activity (GO:0019213), effector of cell differentiation (GO:0030154), effector of histone deacetylase activity (GO:0004407), activator of apoptotic process (GO:0006915), inhibitor of cell proliferation (GO:0008283), effector of cell cycle (GO:0007049), activator of cell cycle arrest (GO:0007050), activator of DNA replication (GO:0006260), inhibitor of estrogen receptor activity (GO:0030284), effector of cell death (GO:0008219), effector of T cell homeostasis (GO:0043029), inhibitor of protein kinase B signaling cascade (GO:0043491), activator of cell-substrate adhesion (GO:0031589), effector of determination of adult lifespan (GO:0008340), effector of neuromuscular junction development (GO:0007528), effector of muscle fiber development (GO:0048747), activator of protein phosphorylation (GO:0006468), effector of gene expression (GO:0010467), activator of autophagic cell death (GO:0048102), activator of T cell differentiation (GO:0030217), activator of response to oxidative stress (GO:0006979), effector of regulation of mitochondrial membrane potential (GO:0051881), activator of cellular senescence (GO:0090398), effector of immune response (GO:0006955), effector of angiogenesis (GO:0001525), inhibitor of production of molecular mediator involved in inflammatory response (GO:0002532), inhibitor of G1/S transition of mitotic cell cycle (GO:0000082), inhibitor of 1-phosphatidylinositol-3-kinase activity (GO:0016303), inhibitor of RNA cap binding (GO:0000339), activator of inflammatory response (GO:0006954), activator of cardiac muscle cell differentiation (GO:0055007), effector of chromatin remodeling (GO:0006338), activator of response to endoplasmic reticulum stress (GO:0034976), effector of calcium ion homeostasis (GO:0055074), activator of reactive oxygen species metabolic process (GO:0072593), inhibitor of cytokine secretion (GO:0050663), activator of cyclin-dependent protein kinase inhibitor activity (GO:0004861), inhibitor of tumor necrosis factor production (GO:0032640), inhibitor of transdifferentiation (GO:0060290), effector of cell migration (GO:0016477), activator of histone H3 acetylation (GO:0043966), activator of chromatin assembly (GO:0031497), inhibitor of transcription, DNA-dependent (GO:0006351), activator of mitotic cell cycle arrest (GO:0071850), activator of epithelial cell differentiation (GO:0030855), effector of DNA damage response, signal transduction by p53 class mediator (GO:0030330), effector of histone deacetylation (GO:0016575), activator of interleukin-10 production (GO:0032613), effector of cytoplasmic microtubule organization (GO:0031122), activator of nitric oxide biosynthetic process (GO:0006809), inhibitor of double-strand break repair (GO:0006302), effector of chromatin assembly or disassembly (GO:0006333), activator of protein sumoylation (GO:0016925), activator of proteasomal protein catabolic process (GO:0010498), activator of lytic viral release (GO:0019077), activator of protein dephosphorylation (GO:0006470), inhibitor of interleukin-12 biosynthetic process (GO:0042090), inhibitor of natural killer cell activation (GO:0030101), effector of T cell receptor signaling pathway (GO:0050852), effector of stress-activated MAPK cascade (GO:0051403), effector of JAK-STAT cascade (GO:0007259), inhibitor of behavioral response to formalin induced pain (GO:0061368), inhibitor of cytokine production involved in inflammatory response (GO:0002534), activator of mRNA transcription (GO:0009299), effector of chloride channel activity (GO:0005254), activator of autophagy (GO:0006914), activator of response to DNA damage stimulus (GO:0006974)"
+1059,vorinostat:carboplatin (1:1 mol/mol),HDAC inhibitor Class I:|:HDAC1:|:HDAC10:|:HDAC11:|:HDAC2:|:HDAC3:|:HDAC5:|:HDAC6:|:HDAC8:|:HDAC9:|:IIa:|:IIb:|:IV,"Chromatin histone acetylation:|:HDAC :|: of HDAC1, HDAC2, HDAC3, HDAC6, and HDAC8"
+1060,vorinostat:navitoclax (4:1 mol/mol),HDAC inhibitor Class I:|:HDAC1:|:HDAC10:|:HDAC11:|:HDAC2:|:HDAC3:|:HDAC5:|:HDAC6:|:HDAC8:|:HDAC9:|:IIa:|:IIb:|:IV,"Chromatin histone acetylation:|:HDAC :|: of HDAC1, HDAC2, HDAC3, HDAC6, and HDAC8"
+1061,Vorinostat_1012,DNA,NA
+1062,Vorinostat_1012,BCL2;BCL2L1;BCL2L2,"effector of apoptotic process (GO:0006915),"
+1063,Voxtalisib_375,DNAPK:|:MTOR:|:PI3K (class 1):|:PIK3CA:|:PIK3CB:|:PIK3CD:|:PIK3CG:|:PRKDC,"of mTOR and PI3K kinase acitivities:|:mTOR , PI3K :|:PI3K :|:PI3K/MTOR signaling"
+1064,VSP34_8731_1734,VSP34,Other
+1065,VU0155056,PLD1:|:PLD2,of phospholipase D1/D2
+1066,VX-11e_2096,ERK2:|:MAPK1,ERK MAPK signaling:|:MAP kinase
+1067,VX-11e_262,ERK2:|:MAPK1,ERK MAPK signaling:|:MAP kinase
+1068,VX-680,AURKA;AURKB;AURKC,"MAPK signaling pathway,ErbB signaling pathway,Ras signaling pathway,PI3K-Akt signaling pathway"
+1069,VX-702_1028,MAPK11:|:MAPK12:|:MAPK14:|:p38,JNK and p38 signaling:|:p38 MAPK
+1070,WAY-362450,NR1H4,agonist of farnesoid X receptor:|:FXR agonist
+1071,Wee1 Inhibitor_1046,"WEE1, CHEK1",Cell cycle
+1072,Wee1 Inhibitor_1046,"WEE1, CHEK1",Cell cycle
+1073,WEHI-539_1997,BCL-XL,Apoptosis regulation
+1074,WH-4-023_56,LCK:|:SRC,"Other, kinases"
+1075,WHI-P97_288,JAK3,"Other, kinases"
+1076,WIKI4_1940,TNKS1:|:TNKS2,WNT signaling
+1077,Wnt-C59_1622,PORCN,WNT signaling
+1078,Wnt-C59_574,PORCN,WNT signaling
+1079,WP1130,JAK2:|:UCHL5:|:USP14:|:USP5:|:USP9X,"deubiquitinase :|: of the deubiquitinase activity of USP9X, USP5, USP14, and UCH37"
+1080,WYE-125132_317,mTOR:|:MTOR,mTOR :|:PI3K/MTOR signaling
+1081,WZ-1-84_59,BMX,"Other, kinases"
+1082,WZ3105_252,FLT3:|:IRAK1:|:NTRK2:|:others:|:ROCK2:|:SRC,Other
+1083,WZ4002,EGFR:|:ERBB2,EGFR :|: of EGFR targeting T790M resistance
+1084,WZ4003_1614,NUAK1:|:NUAK2,"Other, kinases"
+1085,WZ8040,EGFR,EGFR :|: of EGFR targeting T790M resistance
+1086,XAV939_1268,TNKS:|:TNKS1:|:TNKS2,tankyrase :|:WNT signaling
+1087,XAV939_1268,TNKS:|:TNKS1:|:TNKS2,tankyrase :|:WNT signaling
+1088,XL765,NA,NA
+1089,XMD11-85h_1158,BRSK2:|:FLT4:|:MARK4:|:PRKCD:|:RET:|:SPRK1:|:SRPK1,"Other, kinases"
+1090,XMD13-2_330,RIPK1,Apoptosis regulation
+1091,XMD14-99_253,ALK:|:CDK7:|:LTK:|:others,"Other, kinases"
+1092,XMD15-27_332,CAMK2,"Other, kinases"
+1093,XMD8-85_106,BET:|:ERK5:|:MAPK7,MAP kinase :|:Other
+1094,XMD8-92_1164,DCLK2:|:MAPK7:|:PLK4:|:TNK1,ERK MAPK signaling:|:MAP kinase
+1095,Y-39983_309,ROCK:|:ROCK1:|:ROCK2,Cytoskeleton:|:rho associated kinase
+1096,YK-4-279_1239,DHX9:|:ERG:|:ETV1:|:EWSR1:|:FLI1:|:RNA helicase A,apoptosis :|: of RNA helicase A (RHA) binding to EWS-FLI1;  of ERG and ETV1 activity:|:Other
+1097,YK-4-279_1239,DHX9:|:ERG:|:ETV1:|:EWSR1:|:FLI1:|:RNA helicase A,apoptosis :|: of RNA helicase A (RHA) binding to EWS-FLI1;  of ERG and ETV1 activity:|:Other
+1098,YK 4-279,DHX9;ERG;ETV1,inhibitor of RNA helicase A (RHA) binding to EWS-FLI1; inhibitor of ERG and ETV1 activity
+1099,YL54,NA,stapled helical peptide
+1100,YM-155,BIRC5,inhibitor of survivin expression
+1101,YM201636_310,PIKFYVE,PI3K :|:PI3K/MTOR signaling
+1102,Z-LLNle-CHO_45,gamma-secretase:|:PSEN1,Other
+1103,zebularine,DNMT1,"inhibitor of DNA methyltransferases,effector of DNA methylation (GO:0006306), inhibitor of cytidine deaminase activity (GO:0004126), inhibitor of DNA-methyltransferase activity (GO:0009008)"
+1104,ZG-10_1161,JNK1,JNK and p38 signaling
+1105,Zibotentan_266,EDNRA:|:Endothelin-1 receptor (EDNRA),endothelin receptor antagonist:|:Other
+1106,ZM447439_1050,AURKA:|:AURKB,Aurora kinase :|:Mitosis
+1107,ZM447439_1050,AURKA:|:AURKB,Aurora kinase :|:Mitosis
+1108,Zoledronate_1802,FDPS,"Zoledronate Action Pathway,Terpenoid backbone biosynthesis"
+1109,ZSTK474,PI3K (class 1):|:PIK3CB:|:PIK3CD:|:PIK3CG,"of PI3K catalytic subunits beta, delta, and gamma:|:PI3K :|:PI3K/MTOR signaling"
+1110,ZSTK474_223,PI3K (class 1):|:PIK3CB:|:PIK3CD:|:PIK3CG,"of PI3K catalytic subunits beta, delta, and gamma:|:PI3K :|:PI3K/MTOR signaling"
