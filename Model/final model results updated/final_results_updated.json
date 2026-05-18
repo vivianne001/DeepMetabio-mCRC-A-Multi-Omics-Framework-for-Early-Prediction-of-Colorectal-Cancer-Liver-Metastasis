@@ -1,0 +1,14 @@
+{
+    "test_loss": 0.3574182093143463,
+    "test_accuracy": 0.8472222089767456,
+    "test_auc": 0.9059123992919922,
+    "test_precision": 0.8724831938743591,
+    "test_recall": 0.9027777910232544,
+    "total_samples": 1077,
+    "features_used": 606,
+    "train_samples": 861,
+    "test_samples": 216,
+    "functional_genes_total": 620,
+    "functional_genes_available": 606,
+    "intersection_ratio": 0.9774193548387097
+}
